@@ -1,0 +1,7 @@
+*(tt) library
+.include "./Sky130_Primitives/cells/nfet_01v8/sky130_fd_pr__nfet_01v8__tt.pm3.spice"
+.include "./Sky130_Primitives/cells/nfet_01v8/sky130_fd_pr__nfet_01v8__mismatch.corner.spice"
+.include "./Sky130_Primitives/cells/pfet_01v8/sky130_fd_pr__pfet_01v8__tt.corner.spice"
+.include "./Sky130_Primitives/cells/pfet_01v8/sky130_fd_pr__pfet_01v8__mismatch.corner.spice"
+.include "./Sky130_Primitives/models/parameters/invariant.spice"
+.include "./Sky130_Primitives/models/parameters/lod.spice"

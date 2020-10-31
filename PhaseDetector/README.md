@@ -1,4 +1,4 @@
-<h1> 10T Dead-zone-free, Stable Phase Frequency Detector capable of high frequency applicaitons </h1>
+<h1> 10T Dead-zone-free, Stable Phase Frequency Detector capable of high frequency applications </h1>
 <h2> Method of Optimisation: </h2>
 
 * This circuit for Phase Detector (PD) is adapted from <b>[2]</b>. It is chosen because though having a very low transistor count in comparison to generally used PDs, this particular PD eliminates deadzone, has a low power consumption and it is capable of working at higher frequencies compared to generally used PDs. <br>

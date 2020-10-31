@@ -22,6 +22,7 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 * [Frequency Divider](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/FrequencyDivider) 
 
 <h4> Instructions for simulation: </h4>
+
 * The required sky130nm primitives are present inside the 'Sky130_Primitives' folder and already included inside PLL.cir
 * Install ngspice if not already installed: 
     On Ubuntu systems - ```sudo apt-get install ngspice```
@@ -37,5 +38,6 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 
 
 <h4> Acknowledgments: </h4>
+
 * I thank Mr. Kunal Ghosh co-founder VSD, for providing me the opportunity to  work on this wonderful project
 * I also thank Paras Gidd, who's work has been greatly helpful in helping me shape mine.

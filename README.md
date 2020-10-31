@@ -20,7 +20,10 @@ Output Wave (33% Duty Cycle):
 
 Instructions for simulation:
 * The required sky130nm primitives are present inside the 'Sky130_Primitives' folder and already included inside PLL.cir
-* Have ngspice installed: 
+* Install ngspice if not already installed: 
     On Ubuntu systems - sudo apt-get install ngspice
+* Clone the repo:
+    git clone https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_8x.git
+* Move to the cloned repo directory.
 * Run the simulation: 
     ngspice PLL.cir

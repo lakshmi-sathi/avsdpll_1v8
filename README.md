@@ -27,3 +27,8 @@ Instructions for simulation:
 * Move to the cloned repo directory.
 * Run the simulation: 
     "ngspice PLL.cir"
+
+
+Acknowledgments:
+* I thank Mr. Kunal Ghosh co-founder VSD, for providing me the opportunity to  work on this wonderful project
+* I also thank Paras Gidd, who's work has been greatly helpful in helping me shape mine.

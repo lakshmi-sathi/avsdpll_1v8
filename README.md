@@ -1,7 +1,7 @@
 # 130nm PLL Clock Multiplier IP
 8x PLL Clock Multiplier IP on the Google-Skywater 130nm node.
 
-Tested through spice simulations on skywater 180nm tt corner at room termperature
+Tested through spice simulations on skywater 130nm tt corner at room termperature
 
 Generates 8x Multiplied clock having 33% duty cycle
 
@@ -16,6 +16,9 @@ Output Wave (33% Duty Cycle):
 
 ![](Images/DutyCycle.png)
 
+Custom selection of Phase Detector and Frequency Divider circuits were made to improve stability and area/power consumption:
+* Phase Detector
+* Frequency Divider
 
 Instructions for simulation:
 * The required sky130nm primitives are present inside the 'Sky130_Primitives' folder and already included inside PLL.cir

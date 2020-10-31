@@ -1,3 +1,5 @@
+<h1> 6T Stable Frequency Divider based on E-TSPC Toggle FlipFlop </h1>
+
 <h2>Method of Optimisation:</h2>
 
 * In an E-TSPC (Extended True Single Phase Clock) Flip-Flop, the functionality depends very much on the W/L ratios of the transistors. <br>

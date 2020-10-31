@@ -38,6 +38,7 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 <b> [[2](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/PhaseDetector)] </b> KK Abdul Majeed, Binsu J. Kailath, "A novel phase frequency detector for a high frequency PLL design," Procedia Eng. 64 (2013) 377–384.
 
 <h4> Future Scope: </h4> 
+
 * Incorporation of Trimmer Codes.
 * Incorporation of PVT compensation circuit
 

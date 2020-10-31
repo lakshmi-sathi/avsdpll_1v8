@@ -40,7 +40,7 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 <h4> Future Scope: </h4> 
 
 * Incorporation of Trimmer Codes.
-* Incorporation of PVT compensation circuit
+* Incorporation of PVT compensation circuit.
 
 <h4> Author: </h4>
 

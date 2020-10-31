@@ -12,7 +12,7 @@ Output frequency obtained for input 12.5Mhz: 95Mhz   (Required: 100Mhz)
 
 ![](Images/PLL1.jpg)
 
-Output Wave (33% Duty Cycle):
+<h4> Output Wave (33% Duty Cycle): </h4>
 
 ![](Images/DutyCycle.png)
 
@@ -21,7 +21,7 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 
 * [Frequency Divider](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/FrequencyDivider) 
 
-Instructions for simulation:
+<h4> Instructions for simulation: </h4>
 * The required sky130nm primitives are present inside the 'Sky130_Primitives' folder and already included inside PLL.cir
 * Install ngspice if not already installed: 
     On Ubuntu systems - ```sudo apt-get install ngspice```
@@ -31,9 +31,10 @@ Instructions for simulation:
 * Run the simulation: 
     ```ngspice PLL.cir```
 
-References: <br>
+<h4> References: </h4> <br>
 <b> [[1](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/FrequencyDivider)] </b> Q. Du, J. Zhuang and T. Kwasniewski, "A Low Phase Noise Dll Clock Generator with a Programmable Dynamic Frequency Divider," 2006 Canadian Conference on Electrical and Computer Engineering, Ottawa, Ont., 2006, pp. 701-704, doi: 10.1109/CCECE.2006.277703.
 
-Acknowledgments:
+
+<h4> Acknowledgments: </h4>
 * I thank Mr. Kunal Ghosh co-founder VSD, for providing me the opportunity to  work on this wonderful project
 * I also thank Paras Gidd, who's work has been greatly helpful in helping me shape mine.

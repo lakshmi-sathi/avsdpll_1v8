@@ -1,6 +1,6 @@
 <h2>Method of Optimisation:</h2>
 
-  In a E-TSPC (Extended True Single Phase Clock) Flip-Flop, it's proper working depends very much on the W/L ratios of the transitors.
+  In a E-TSPC (Extended True Single Phase Clock) Flip-Flop, it's functionality depends very much on the W/L ratios of the transistors. <br>
   From [1], It is known that on stage 1 the (W/L)p should be large compared to (W/L)n and in stage 2 and output stage the (W/L)p should be lesser than (W/L)n.
 
 

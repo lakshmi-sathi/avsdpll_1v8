@@ -13,6 +13,7 @@ PLL Output (tt, 27degree Celcius):
 
 
 Output Wave (33% Duty Cycle):
+
 ![](Images/DutyCycle.png)
 
 

@@ -17,10 +17,9 @@ Output Wave (33% Duty Cycle):
 ![](Images/DutyCycle.png)
 
 Custom selection of Phase Detector and Frequency Divider circuits were made to improve stability and area/power consumption:
-* Phase Detector
+* [Phase Detector](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/PhaseDetector)
 
-* Frequency Divider
-
+* [Frequency Divider](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/FrequencyDivider) 
 
 Instructions for simulation:
 * The required sky130nm primitives are present inside the 'Sky130_Primitives' folder and already included inside PLL.cir

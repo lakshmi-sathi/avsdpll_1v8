@@ -4,6 +4,8 @@ This circuit for Phase Detector (PD) is adapted from this work <b>[2]</b>. It is
 Minimum area and power consumption is kept in mind by using the least 'W' values for transistors wherever possible. <br>
 'W' value for transistors adjacent to the output net is kept slightly high (~1440nm) in order to increase output resistance and in turn the circuits ability provide stable output.
 
+<b>[2]</b> KK Abdul Majeed, Binsu J. Kailath, "A novel phase frequency detector for a high frequency PLL design," Procedia Eng. 64 (2013) 377–384.
+
 <h2> Schematic: </h2>
 
 ![](PD_10T.jpg)

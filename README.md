@@ -13,6 +13,6 @@ PLL Output (tt, 27degree Celcius):
 
 
 Duty Cycle:
-![](Images/DutyCycle.jpg)
+![](Images/DutyCycle.png)
 
 

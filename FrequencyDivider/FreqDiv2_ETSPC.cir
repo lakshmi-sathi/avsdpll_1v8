@@ -1,0 +1,34 @@
+*Frequency Divide by 2 using E-TSPC Flip Flop
+.include sky130nm.lib
+
+xm1 1 5 2 1 sky130_fd_pr__pfet_01v8 l=150n w=3600n 
+xm2 2 3 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
+
+xm3 1 2 4 1 sky130_fd_pr__pfet_01v8 l=150n w=420n 
+xm4 4 3 0 0 sky130_fd_pr__nfet_01v8 l=150n w=1120n
+
+xm5 1 3 5 1 sky130_fd_pr__pfet_01v8 l=150n w=2400n 
+xm6 5 4 0 0 sky130_fd_pr__nfet_01v8 l=150n w=4800n
+
+xm8 1 5 out 1 sky130_fd_pr__pfet_01v8 l=150n w=720n 
+xm9 out 5 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
+
+*output cap
+*c1 5 0 10f
+
+*sources
+
+v1 1 0 1.8
+v2 3 0 pulse(0 1.8 0 1ns 1ns 10ns 20ns)
+
+*simulation
+
+
+.control
+tran 0.1ns 90ns
+plot v(3) v(out)
+plot v(3) v(5)
+plot v(3) v(4)
+plot v(3) v(2)
+.endc
+.end 

@@ -1,33 +1,33 @@
-PD_10T
+*PD_10T
 .include sky130nm.lib
 
-xm1 1 2 3 1 sky130_fd_pr__pfet_01v8 l=150n w=720n 
-xm2 3 2 4 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
-xm3 4 5 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
+xm1 1 clk1 3 1 sky130_fd_pr__pfet_01v8 l=150n w=420n 
+xm2 3 clk1 4 0 sky130_fd_pr__nfet_01v8 l=150n w=420n
+xm3 4 clk2 0 0 sky130_fd_pr__nfet_01v8 l=150n w=420n
 
-xm4 1 5 6 1 sky130_fd_pr__pfet_01v8 l=150n w=720n 
-xm5 6 5 7 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
-xm6 7 2 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
+xm4 1 clk2 6 1 sky130_fd_pr__pfet_01v8 l=150n w=420n 
+xm5 6 clk2 7 0 sky130_fd_pr__nfet_01v8 l=150n w=420n
+xm6 7 clk1 0 0 sky130_fd_pr__nfet_01v8 l=150n w=420n
 
-xm7 8 2 3 0 sky130_fd_pr__nfet_01v8 l=150n w=1440n 
-xm8 2 2 8 1 sky130_fd_pr__pfet_01v8 l=150n w=1440n
+xm7 up clk1 3 0 sky130_fd_pr__nfet_01v8 l=150n w=1440n 
+xm8 clk1 clk1 up 1 sky130_fd_pr__pfet_01v8 l=150n w=1440n
 
-xm9 9 5 6 0 sky130_fd_pr__nfet_01v8 l=150n w=1440n
-xm10 5 5 9 1 sky130_fd_pr__pfet_01v8 l=150n w=1440n
+xm9 down clk2 6 0 sky130_fd_pr__nfet_01v8 l=150n w=1440n
+xm10 clk2 clk2 down 1 sky130_fd_pr__pfet_01v8 l=150n w=1440n
 
 
 *output cap
-c1 8 0 0.6f
-c2 9 0 0.6f
+c1 up 0 0.8f
+c2 down 0 0.8f
 
 *sources
 v1 1 0 1.8v
-v2 2 0 pulse(0 1.8 0 2ns 2ns 10ns 20ns)
-v3 5 0 pulse(0 1.8 16ns 2ns 2ns 10ns 20ns) 
+v2 clk1 0 pulse(0 1.8 0 2ns 2ns 100ns 200ns)
+v3 clk2 0 pulse(0 1.8 16ns 2ns 2ns 100ns 200ns) 
 
 *simulation
 .control
-tran 0.1ns 80ns
-plot v(2) v(5) v(8) v(9)
+tran 10ns 800ns 100ns
+plot v(clk2)+4 v(clk1)+4 v(up)+2 v(down)
 .endc
 .end

@@ -12,7 +12,7 @@ Output frequency obtained for input 12.5Mhz: 95Mhz
 PLL Output (tt, 27degree Celcius):
 
 
-Duty Cycle:
+Output Wave (33% Duty Cycle):
 ![](Images/DutyCycle.png)
 
 

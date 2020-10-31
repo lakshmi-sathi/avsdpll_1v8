@@ -16,7 +16,7 @@ Output frequency obtained for input 12.5Mhz: 95Mhz   (Required: 100Mhz)
 
 ![](Images/DutyCycle.png)
 
-Custom selection of Phase Detector and Frequency Divider circuits were made to improve stability and area/power consumption:
+Custom selection of Phase Detector and Frequency Divider circuits were made to improve stability and reduce area/power consumption:
 * [Phase Detector](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/PhaseDetector)
 
 * [Frequency Divider](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/FrequencyDivider) 

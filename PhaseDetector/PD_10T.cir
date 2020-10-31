@@ -27,7 +27,7 @@ v3 clk2 0 pulse(0 1.8 16ns 2ns 2ns 100ns 200ns)
 
 *simulation
 .control
-tran 10ns 800ns 100ns
+tran 10ns 800ns 120ns
 plot v(clk2)+4 v(clk1)+4 v(up)+2 v(down)
 .endc
 .end

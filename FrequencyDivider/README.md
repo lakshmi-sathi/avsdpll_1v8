@@ -1,4 +1,7 @@
 <h2>Schematic:</h2>
+
+![](FreqDiv2_ETSPC.jpg)
+
 <h2>Frequency Divider Stage 1:</h2>
 
 ![](FD_stage1.jpg)

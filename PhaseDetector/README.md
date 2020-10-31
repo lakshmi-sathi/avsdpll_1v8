@@ -3,11 +3,11 @@
 ![](PD_10T.jpg)
 
 
-Waveform Leading:
+<h2> Waveform Leading: </h2>
 
 ![](PD_10T_waveform.jpg)
 
 
-Waveform Lagging:
+<h2> Waveform Lagging: </h2>
 
 ![](PD_10T_waveform2.jpg)

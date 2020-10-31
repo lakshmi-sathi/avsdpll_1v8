@@ -28,6 +28,6 @@ v3 5 0 pulse(0 1.8 16ns 2ns 2ns 10ns 20ns)
 *simulation
 .control
 tran 0.1ns 80ns
-plot v(2) v(5) v(12) v(13)
+plot v(2) v(5) v(8) v(9)
 .endc
 .end

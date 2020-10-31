@@ -1,4 +1,4 @@
-# 130nm PLL Clock Multiplier 8x
+# 130nm PLL Clock Multiplier IP
 8x PLL Clock Multiplier IP on the Google-Skywater 130nm node.
 
 Tested through spice simulations on skywater 180nm tt corner at room termperature

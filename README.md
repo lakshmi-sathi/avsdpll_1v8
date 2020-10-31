@@ -18,8 +18,10 @@ Output Wave (33% Duty Cycle):
 
 Custom selection of Phase Detector and Frequency Divider circuits were made to improve stability and area/power consumption:
 * Phase Detector
+
 ![](Images/PD.jpg)
 * Frequency Divider
+
 ![](Images/ff.jpg)
 
 Instructions for simulation:

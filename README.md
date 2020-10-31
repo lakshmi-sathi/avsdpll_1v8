@@ -19,10 +19,10 @@ Output Wave (33% Duty Cycle):
 Custom selection of Phase Detector and Frequency Divider circuits were made to improve stability and area/power consumption:
 * Phase Detector
 
-![](Images/PD.jpg)
+![](Images/PD_10T.png)
 * Frequency Divider
 
-![](Images/ff.jpg)
+![](Images/FreqDiv2_ETSPC.png)
 
 Instructions for simulation:
 * The required sky130nm primitives are present inside the 'Sky130_Primitives' folder and already included inside PLL.cir

@@ -35,7 +35,7 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 <h4> References: </h4> 
 
 <b> [[1](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/FrequencyDivider)] </b> Q. Du, J. Zhuang and T. Kwasniewski, "A Low Phase Noise Dll Clock Generator with a Programmable Dynamic Frequency Divider," 2006 Canadian Conference on Electrical and Computer Engineering, Ottawa, Ont., 2006, pp. 701-704, doi: 10.1109/CCECE.2006.277703.
-
+<b> [[2](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/PhaseDetector)] </b> ] KK Abdul Majeed, Binsu J. Kailath, "A novel phase frequency detector for a high frequency PLL design," Procedia Eng. 64 (2013) 377–384.
 
 <h4> Acknowledgments: </h4>
 

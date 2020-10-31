@@ -18,3 +18,9 @@ Output Wave (33% Duty Cycle):
 ![](Images/DutyCycle.png)
 
 
+Instructions for simulation:
+* The required sky130nm primitives are present inside the 'Sky130_Primitives' folder and already included inside PLL.cir
+* Have ngspice installed: 
+    On Ubuntu systems - sudo apt-get install ngspice
+* Run the simulation: 
+    ngspice PLL.cir

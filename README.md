@@ -31,6 +31,8 @@ Instructions for simulation:
 * Run the simulation: 
     ```ngspice PLL.cir```
 
+References:
+<b> [1](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/FrequencyDivider) </b> Q. Du, J. Zhuang and T. Kwasniewski, "A Low Phase Noise Dll Clock Generator with a Programmable Dynamic Frequency Divider," 2006 Canadian Conference on Electrical and Computer Engineering, Ottawa, Ont., 2006, pp. 701-704, doi: 10.1109/CCECE.2006.277703.
 
 Acknowledgments:
 * I thank Mr. Kunal Ghosh co-founder VSD, for providing me the opportunity to  work on this wonderful project

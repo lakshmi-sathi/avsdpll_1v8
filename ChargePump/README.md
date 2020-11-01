@@ -6,6 +6,11 @@
 
 <h2> Schematic: </h2>
 
-<h2> Response to 'up' signal: </h2>
 
 <h2> Response to 'up' signal: </h2>
+
+![](chpmp_up_merged.jpg)
+
+<h2> Response to 'up' signal: </h2>
+
+![](![](chpmp_down_merged.jpg)

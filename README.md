@@ -10,7 +10,10 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
 <h4> PLL Output (tt, 27degree Celcius): </h4>
 
-![](Images/PLL1.jpg)
+![](Images/PLL_cust_42Mhz.jpg)
+<h5> In:5Mhz, Out: 42Mhz: </h5>
+
+![](Images/PLL_cust_97Mhz.jpg)
 
 <h4> Output Wave (33% Duty Cycle): </h4>
 

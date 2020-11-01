@@ -21,6 +21,8 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 
 * [Frequency Divider](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/FrequencyDivider) 
 
+* [Charge Pump](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/ChargePump)
+
 <h4> Instructions for simulation: </h4>
 
 * The required sky130nm primitives are present inside the 'Sky130_Primitives' folder and already included inside PLL.cir

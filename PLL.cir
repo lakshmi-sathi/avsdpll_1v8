@@ -2,16 +2,32 @@
 .include sky130nm.lib
 
 xx1 clk_ref clk_vco_by_8 up down phase_detector
-xx2 up down vin_vco charge_pump
+xx2 up down vin_vco chpmp
 xx3 vin_vco clk_out vcoscillator
-c3 clk_vco_by_8 0 10f
+
+c3 clk_vco_by_8 0 1f
+
 xx5 clk_out 4 freqdiv2
+*c4 4 0 1f
 xx6 4 3 freqdiv2
-xx7 3 clk_vco_by_8 freqdiv2
-*xm8 1 clk_out 6 1 sky130_fd_pr__pfet_01v8 l=150n w=720n 
-*xm9 6 clk_out 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
-*xm10 1 6 out 1 sky130_fd_pr__pfet_01v8 l=150n w=1440n 
-*xm11 out 6 0 0 sky130_fd_pr__nfet_01v8 l=150n w=720n
+*c5 3 0 1f
+x7 3 clk_vco_by_8 freqdiv2
+*c6 clk_vco_by_8 0 1f
+
+*xm8 1 4 6 1 sky130_fd_pr__pfet_01v8 l=150n w=720n 
+*xm9 6 4 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
+*xm10 1 6 7 1 sky130_fd_pr__pfet_01v8 l=150n w=720n 
+*xm11 7 6 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
+*
+*xm12 1 3 8 1 sky130_fd_pr__pfet_01v8 l=150n w=720n 
+*xm13 8 3 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
+*xm14 1 8 9 1 sky130_fd_pr__pfet_01v8 l=150n w=720n 
+*xm15 9 8 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
+
+*xm16 1 10 11 1 sky130_fd_pr__pfet_01v8 l=150n w=720n 
+*xm17 11 10 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
+*xm18 1 11 clk_vco_by_8 1 sky130_fd_pr__pfet_01v8 l=150n w=720n 
+*xm19 clk_vco_by_8 11 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
 
 v1 clk_ref 0 PULSE 0 1.8 10p 60p 60p 100ns 200ns
 v2 1 0 1.8
@@ -26,61 +42,102 @@ xm4 1 clk2 6 1 sky130_fd_pr__pfet_01v8 l=150n w=420n
 xm5 6 clk2 7 0 sky130_fd_pr__nfet_01v8 l=150n w=420n
 xm6 7 clk1 0 0 sky130_fd_pr__nfet_01v8 l=150n w=420n
 
-xm7 8 clk1 3 0 sky130_fd_pr__nfet_01v8 l=150n w=1120n 
-xm8 clk1 clk1 8 1 sky130_fd_pr__pfet_01v8 l=150n w=1120n
+xm7 8 clk1 3 0 sky130_fd_pr__nfet_01v8 l=150n w=1440n 
+xm8 clk1 clk1 8 1 sky130_fd_pr__pfet_01v8 l=150n w=1440n
 
-xm9 9 clk2 6 0 sky130_fd_pr__nfet_01v8 l=150n w=1120n
-xm10 clk2 clk2 9 1 sky130_fd_pr__pfet_01v8 l=150n w=1120n
+xm9 9 clk2 6 0 sky130_fd_pr__nfet_01v8 l=150n w=1440n
+xm10 clk2 clk2 9 1 sky130_fd_pr__pfet_01v8 l=150n w=1440n
+
+*output cap
+c1 8 0 0.9f
+c2 9 0 0.9f
 
 *buffer
 xm11 1 8 10 1 sky130_fd_pr__pfet_01v8 l=150n w=720n 
 xm12 10 8 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
-xm15 1 10 up 1 sky130_fd_pr__pfet_01v8 l=150n w=720n 
-xm16 up 10 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
+xm15 1 10 up 1 sky130_fd_pr__pfet_01v8 l=150n w=1080n 
+xm16 up 10 0 0 sky130_fd_pr__nfet_01v8 l=150n w=540n
 xm13 1 9 11 1 sky130_fd_pr__pfet_01v8 l=150n w=720n 
 xm17 11 9 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
-xm18 1 11 down 1 sky130_fd_pr__pfet_01v8 l=150n w=720n
-xm14 down 11 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
-
-*output cap
-c1 8 0 0.35f
-c2 9 0 0.35f
+xm18 1 11 down 1 sky130_fd_pr__pfet_01v8 l=150n w=1080n
+xm14 down 11 0 0 sky130_fd_pr__nfet_01v8 l=150n w=540n
 
 v1 1 0 1.8
 
 .ends phase_detector
 *--------------------
 
-*CP-----------------
-.subckt charge_pump up down out
-xm1 upb up 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
-xm2 downb down 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
-xm3 1 down downb 1 sky130_fd_pr__pfet_01v8 l=150n w=1080n
-xm4 1 up upb 1 sky130_fd_pr__pfet_01v8 l=150n w=1080n
-xm5 upb 0 5 5 sky130_fd_pr__nfet_01v8 l=150n w=360n
-xm6 downb 0 4 4 sky130_fd_pr__nfet_01v8 l=150n w=360n
-xm7 3 4 3 3 sky130_fd_pr__nfet_01v8 l=150n w=360n
-xm8 0 1 1 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
-xm9 out 1 3 3 sky130_fd_pr__nfet_01v8 l=150n w=360n
-xm10 3 down 0 0 sky130_fd_pr__nfet_01v8 l=150n w=30u
-xm11 5 1 upb 5 sky130_fd_pr__pfet_01v8 l=150n w=1080n
-xm12 4 1 downb 4 sky130_fd_pr__pfet_01v8 l=150n w=1080n
-xm13 2 up 2 2 sky130_fd_pr__pfet_01v8 l=150n w=1080n
-xm14 0 0 1 1 sky130_fd_pr__pfet_01v8 l=150n w=1080n
-xm15 2 0 out 2 sky130_fd_pr__pfet_01v8 l=150n w=1080n
-xm16 1 5 2 1 sky130_fd_pr__pfet_01v8 l=150n w=90u
+**CP-----------------
+*.subckt charge_pump up down out
+*xm1 upb up 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
+*xm2 downb down 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
+*xm3 1 down downb 1 sky130_fd_pr__pfet_01v8 l=150n w=1080n
+*xm4 1 up upb 1 sky130_fd_pr__pfet_01v8 l=150n w=1080n
+*xm5 upb 0 5 5 sky130_fd_pr__nfet_01v8 l=150n w=360n
+*xm6 downb 0 4 4 sky130_fd_pr__nfet_01v8 l=150n w=360n
+*xm7 3 4 3 3 sky130_fd_pr__nfet_01v8 l=150n w=360n
+*xm8 0 1 1 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
+*xm9 out 1 3 3 sky130_fd_pr__nfet_01v8 l=150n w=360n
+*xm10 3 down 0 0 sky130_fd_pr__nfet_01v8 l=150n w=30u
+*xm11 5 1 upb 5 sky130_fd_pr__pfet_01v8 l=150n w=1080n
+*xm12 4 1 downb 4 sky130_fd_pr__pfet_01v8 l=150n w=1080n
+*xm13 2 up 2 2 sky130_fd_pr__pfet_01v8 l=150n w=1080n
+*xm14 0 0 1 1 sky130_fd_pr__pfet_01v8 l=150n w=1080n
+*xm15 2 0 out 2 sky130_fd_pr__pfet_01v8 l=150n w=1080n
+*xm16 1 5 2 1 sky130_fd_pr__pfet_01v8 l=150n w=90u
+*
+**output cap
+*c1 out 0 1f
+*
+*v1 1 0 1.8
+*.ends charge_pump
+**--------------------
 
-*output cap
-c1 out 0 1f
+**ChargePump---------------
+.subckt chpmp up down out
+*---Top 2---
+xm1 2 0 1 1 sky130_fd_pr__pfet_01v8 l=150n w=840n 
+xm2 4 up 1 1 sky130_fd_pr__pfet_01v8 l=150n w=420n
+*---Left Top SC Transistor--- 
+xm3 5 3 2 1 sky130_fd_pr__pfet_01v8 l=600n w=2400n 
+xm4 3 3 5 7 sky130_fd_pr__pfet_01v8 l=150n w=9600n  
+*---Right Top SC Transistor---
+xm5 6 3 4 1 sky130_fd_pr__pfet_01v8 l=600n w=1200n 
+xm6 out 3 6 7 sky130_fd_pr__pfet_01v8 l=150n w=4800n
 
+
+*---Right Bottom SC Transistor---
+xm7 out 8 10 15 sky130_fd_pr__nfet_01v8 l=150n w=4800n
+xm8 10 8 11 0 sky130_fd_pr__nfet_01v8 l=600n w=1200n
+*---Left Bottom SC Transistor---
+xm9 9 8 3 15 sky130_fd_pr__nfet_01v8 l=150n w=9600n
+xm10 12 8 9 0 sky130_fd_pr__nfet_01v8 l=600n w=2400n
+*---Bottom 2---
+xm11 0 1 12 0 sky130_fd_pr__nfet_01v8 l=150n w=420n
+xm12 0 down 11 0 sky130_fd_pr__nfet_01v8 l=150n w=420n
+
+*---Current Source---
+xm16 16 16 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
+xm17 8 16 16 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
+*---Mirroring Iref-----
+xm13 13 8 8 15 sky130_fd_pr__nfet_01v8 l=150n w=2400n
+xm14 14 8 13 0 sky130_fd_pr__nfet_01v8 l=600n w=600n
+xm15 0 1 14 0 sky130_fd_pr__nfet_01v8 l=150n w=420n
+
+
+r1 15 16 480
+
+c1 out 0 0.52f
 v1 1 0 1.8
-.ends charge_pump
-*--------------------
+v2 7 0 1.4 
+v3 15 0 0.4
+.ends chpmp
+*------------------
 
 *LPF----------------
-c1 vin_vco 0 200p
-c2 5 0 500p
-r1 vin_vco 5 500
+c1 vin_vco 0 0.2f
+c2 5 0 1f
+r1 vin_vco 5 10
 *-------------------
 
 *VCO----------------
@@ -98,7 +155,7 @@ xx4 4 5 vp vn cs_inv
 xx5 3 4 vp vn cs_inv
 xx6 2 3 vp vn cs_inv
 xx7 osc_fb 2 vp vn cs_inv
-*c1 vout 0 0.1f
+c1 vout 0 0.1f
 
 v1 1 0 1.8
 .ends vcoscillator
@@ -114,24 +171,45 @@ v1 1 0 1.8
 .ends cs_inv
 *----------------------
 
+**VCO---------------------
+*.subckt vcoscillator vin vout
+*xm1 10 vout 3 10 sky130_fd_pr__pfet_01v8 l=150n w=900n
+*xm2 3 vout 9 9  sky130_fd_pr__nfet_01v8 l=150n w=360n
+*
+*xm3 10 3 4 10 sky130_fd_pr__pfet_01v8 l=150n w=900n
+*xm4 4 3 9 9 sky130_fd_pr__nfet_01v8 l=150n w=360n
+*
+*xm5 10 4 vout 10 sky130_fd_pr__pfet_01v8 l=150n w=900n
+*xm6 vout 4 9 9 sky130_fd_pr__nfet_01v8 l=150n w=360n
+*
+*xm7 10 5 1 1 sky130_fd_pr__pfet_01v8 l=150n w=420n
+*xm8 5 5 1 1 sky130_fd_pr__pfet_01v8 l=150n w=420n
+*xm9 5 vin 0 0 sky130_fd_pr__nfet_01v8 l=150n w=2400n
+*xm10 9 vin 0 0 sky130_fd_pr__nfet_01v8 l=150n w=2400n
+*
+*c1 2 0 0.1f
+*v1 1 0 1.8
+*.ends vcoscillator
+**--------------------------
+
 *FreqDiv by 2-----------
 .subckt freqdiv2 clkin clkout 
-xm1 1 5 2 1 sky130_fd_pr__pfet_01v8 l=150n w=3600n 
+xm1 1 5 2 1 sky130_fd_pr__pfet_01v8 l=150n w=3050n 
 xm2 2 clkin 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
 
 xm3 1 2 4 1 sky130_fd_pr__pfet_01v8 l=150n w=420n 
-xm4 4 clkin 0 0 sky130_fd_pr__nfet_01v8 l=150n w=1120n
+xm4 4 clkin 0 0 sky130_fd_pr__nfet_01v8 l=150n w=840n
 
-xm5 1 clkin 5 1 sky130_fd_pr__pfet_01v8 l=150n w=2400n 
-xm6 5 4 0 0 sky130_fd_pr__nfet_01v8 l=150n w=4800n
+xm5 1 clkin 5 1 sky130_fd_pr__pfet_01v8 l=150n w=420n 
+xm6 5 4 0 0 sky130_fd_pr__nfet_01v8 l=150n w=840n
 
-*c1 5 0 0.1f
+c1 5 0 0.8f
 
-xm7 1 5 6 1 sky130_fd_pr__pfet_01v8 l=150n w=1120n 
-xm8 6 5 0 0 sky130_fd_pr__nfet_01v8 l=150n w=560n
+xm7 1 5 6 1 sky130_fd_pr__pfet_01v8 l=150n w=900n 
+xm8 6 5 0 0 sky130_fd_pr__nfet_01v8 l=150n w=450n
 
-xm9 1 6 clkout 1 sky130_fd_pr__pfet_01v8 l=150n w=1120n 
-xm10 clkout 6 0 0 sky130_fd_pr__nfet_01v8 l=150n w=560n
+xm9 1 6 clkout 1 sky130_fd_pr__pfet_01v8 l=150n w=900n 
+xm10 clkout 6 0 0 sky130_fd_pr__nfet_01v8 l=150n w=450n
 
 
 v1 1 0 1.8
@@ -142,9 +220,14 @@ v1 1 0 1.8
 *simulation
 .ic V(vin_vco) = 0
 .control
-tran 10ns 5us
+tran 1ns 40us
+*fft v(clk_out)
 *plot v(clk_ref)+8 v(up)+6 v(down)+4 v(vin_vco)+2 v(clk_out)
-plot v(4)+2 v(clk_out) 
-
+plot v(up)+8 v(down)+6 v(clk_ref)+4 v(vin_vco)+2  v(clk_out) 
+*setplot tran1
+*linearize v(clk_out)
+*set specwindow=blackman
+*fft v(clk_out)
+*plot mag(v(clk_out))
 .endc
 .end 

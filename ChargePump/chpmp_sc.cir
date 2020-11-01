@@ -1,0 +1,52 @@
+*ChargePump---------------
+.include sky130nm.lib
+
+xx1 up down out chpmp
+
+v1 down 0 PULSE 0 1.8 100ns 60p 60p 100ns 200ns
+v2 up 0 0
+
+.ic v(out)= 1.8
+.control
+tran 1ns 2us
+plot v(out)+2 v(up) v(down)
+.endc
+.subckt chpmp up down out
+*---Top 2---
+xm1 2 0 1 1 sky130_fd_pr__pfet_01v8 l=150n w=840n 
+xm2 4 up 1 1 sky130_fd_pr__pfet_01v8 l=150n w=420n
+*---Left Top SC Transistor--- 
+xm3 5 3 2 1 sky130_fd_pr__pfet_01v8 l=600n w=2400n 
+xm4 3 3 5 7 sky130_fd_pr__pfet_01v8 l=150n w=9600n  
+*---Right Top SC Transistor---
+xm5 6 3 4 1 sky130_fd_pr__pfet_01v8 l=600n w=1200n 
+xm6 out 3 6 7 sky130_fd_pr__pfet_01v8 l=150n w=4800n
+
+
+*---Right Bottom SC Transistor---
+xm7 out 8 10 15 sky130_fd_pr__nfet_01v8 l=150n w=4800n
+xm8 10 8 11 0 sky130_fd_pr__nfet_01v8 l=600n w=1200n
+*---Left Bottom SC Transistor---
+xm9 9 8 3 15 sky130_fd_pr__nfet_01v8 l=150n w=9600n
+xm10 12 8 9 0 sky130_fd_pr__nfet_01v8 l=600n w=2400n
+*---Bottom 2---
+xm11 0 1 12 0 sky130_fd_pr__nfet_01v8 l=150n w=420n
+xm12 0 down 11 0 sky130_fd_pr__nfet_01v8 l=150n w=420n
+
+*---Current Source---
+xm16 16 16 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
+xm17 8 16 16 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
+*---Mirroring Iref-----
+xm13 13 8 8 15 sky130_fd_pr__nfet_01v8 l=150n w=2400n
+xm14 14 8 13 0 sky130_fd_pr__nfet_01v8 l=600n w=600n
+xm15 0 1 14 0 sky130_fd_pr__nfet_01v8 l=150n w=420n
+
+
+r1 15 16 480
+
+c1 out 0 0.52f
+v1 1 0 1.8
+v2 7 0 1.4 
+v3 15 0 0.4
+.ends chpmp
+.end

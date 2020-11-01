@@ -13,4 +13,4 @@
 
 <h2> Response to 'up' signal: </h2>
 
-![](![](chpmp_down_merged.jpg)
+![](chpmp_down_merged.jpg

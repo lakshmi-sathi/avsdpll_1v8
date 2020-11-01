@@ -5,8 +5,8 @@ Tested through spice simulations on skywater 130nm tt corner at room termperatur
 
 Generates 8x Multiplied clock having 33% duty cycle
 
-Output frequency obtained for input 5Mhz: 37MHz  (Required: 40Mhz)
-Output frequency obtained for input 12.5Mhz: 95Mhz   (Required: 100Mhz)
+Output frequency obtained for input 5Mhz: 42MHz  (Required: 40Mhz)
+Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
 <h4> PLL Output (tt, 27degree Celcius): </h4>
 

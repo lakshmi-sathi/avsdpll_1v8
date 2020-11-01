@@ -10,6 +10,7 @@
 
 <h2> Schematic: </h2>
 
+![](Chpmp_SC.jpg)
 
 <h2> Response to 'down' signal: </h2>
 

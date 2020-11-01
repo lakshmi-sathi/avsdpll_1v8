@@ -35,7 +35,8 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 <h4> References: </h4> 
 
 <b> [[1](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/FrequencyDivider)] </b> Q. Du, J. Zhuang and T. Kwasniewski, "A Low Phase Noise Dll Clock Generator with a Programmable Dynamic Frequency Divider," 2006 Canadian Conference on Electrical and Computer Engineering, Ottawa, Ont., 2006, pp. 701-704, doi: 10.1109/CCECE.2006.277703. <br>
-<b> [[2](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/PhaseDetector)] </b> KK Abdul Majeed, Binsu J. Kailath, "A novel phase frequency detector for a high frequency PLL design," Procedia Eng. 64 (2013) 377–384.
+<b> [[2](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/PhaseDetector)] </b> KK Abdul Majeed, Binsu J. Kailath, "A novel phase frequency detector for a high frequency PLL design," Procedia Eng. 64 (2013) 377–384. <br>
+<b> [[3](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/ChargePump)]</b> Ali, Mohsen & Hashemipour, Omid. (2019). "A simple and high performance charge pump based on the self-cascode transistor," Analog Integrated Circuits and Signal Processing. 100. 10.1007/s10470-019-01478-y. 
 
 <h4> Future Scope: </h4> 
 

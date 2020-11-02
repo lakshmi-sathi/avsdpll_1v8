@@ -60,10 +60,6 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 * Incorporation of Trimmer Codes.
 * Incorporation of PVT compensation circuit.
 
-<h4> Author: </h4>
-
-Lakshmi S - lakshmi.sathi96@gmail.com
-
 <h4> Acknowledgements: </h4>
 
 * I thank Mr. Kunal Ghosh co-founder VSD, for providing me the opportunity to  work on this wonderful project

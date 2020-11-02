@@ -59,3 +59,10 @@ Lakshmi S - lakshmi.sathi96@gmail.com
 
 * I thank Mr. Kunal Ghosh co-founder VSD, for providing me the opportunity to  work on this wonderful project
 * I also thank Paras Gidd, who's work has been greatly helpful in helping me shape mine.
+
+<h4> Contacts: </h4>
+
+* Lakshmi S, MS ECE, Georgia Institute of Technology, Atlanta - lakshmi.sathi96@gmail.com
+* Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
+* Paras Gidd, M.Tech.( Microelectronics ), Manipal Institute of Technology,(MAHE) - parasgidd@gmail.com
+

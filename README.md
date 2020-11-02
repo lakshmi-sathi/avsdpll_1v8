@@ -54,9 +54,17 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
 ![](PhaseDetector/PD_10T_waveform.jpg)
 
-<h4> Phase Detector 'Down' Signal (unbuffered): </h4>
+<b>Red:</b> Clock 2 <br>
+<b>Blue:</b> Clock 1 <br>
+<b>Orange:</b> Up Signal <br>
+<b>Green:</b> Down Signal
 
 ![](PhaseDetector/PD_10T_waveform2.jpg)
+
+<b>Red:</b> Clock 2 <br>
+<b>Blue:</b> Clock 1 <br>
+<b>Orange:</b> Up Signal <br>
+<b>Green:</b> Down Signal
 
 <h4> Charge Pump response to 'Up' signal: </h4>
 

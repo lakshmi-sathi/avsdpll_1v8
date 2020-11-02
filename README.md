@@ -8,7 +8,7 @@ Generates 8x Multiplied clock having 33% duty cycle
 Output frequency obtained for input 5Mhz: 42MHz  (Required: 40Mhz) <br>
 Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
-<h3> Contents: </h3>
+<h2> Contents: </h2>
 
 1. [Pre-Layout Simulations](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-pll-output-tt-27degree-celcius-)
 2. [EDA tools used](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-EDA-tools-used-)
@@ -17,7 +17,7 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 5. [Acknowledgements](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-Acknowledgements-)
 6. [Contact](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-Contact-)
 
-<h4> Pre-Layout Simulations: </h4>
+<h3> Pre-Layout Simulations: </h3>
 
 <h4> PLL Output (tt, 27degree Celcius): </h4>
 
@@ -51,6 +51,8 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
 <h4> Frequency Divider (unbuffered): </h4>
 
+![](FrequencyDivider/FreqDiv2_ETSPC.jpg)
+
 Custom selection of Phase Detector and Frequency Divider circuits were made to improve stability and reduce area/power consumption:
 * [Phase Detector](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/PhaseDetector)
 
@@ -58,7 +60,7 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 
 * [Charge Pump](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/ChargePump)
 
-<h4> EDA Tools Used: </h4>
+<h3> EDA Tools Used: </h4>
 
 * [ngspice](http://ngspice.sourceforge.net/download.html) (simulation) <br>
 * [kicad](https://kicad.org/) (schematic capture)

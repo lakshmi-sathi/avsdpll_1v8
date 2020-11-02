@@ -65,7 +65,7 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 * [ngspice](http://ngspice.sourceforge.net/download.html) (simulation) <br>
 * [kicad](https://kicad.org/) (schematic capture)
 
-<h4> Instructions for simulation: </h4>
+<h3> Instructions for simulation: </h3>
 
 * The required sky130nm primitives are present inside the 'Sky130_Primitives' folder and already included inside PLL.cir
 * Install ngspice if not already installed: 
@@ -76,16 +76,16 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 * Run the simulation: 
     ```ngspice PLL.cir``` 
 
-<h4> Future Scope: </h4> 
+<h3> Future Scope: </h3> 
 
 * Incorporation of Trimmer Codes.
 * Incorporation of PVT compensation circuit.
 
-<h4> Acknowledgements: </h4>
+<h3> Acknowledgements: </h3>
 
 * I thank Mr. Kunal Ghosh co-founder VSD, for providing me the opportunity to  work on this wonderful project
 
-<h4> Contact: </h4>
+<h3> Contact: </h3>
 
 * Lakshmi S (Author), MS ECE, Georgia Institute of Technology, Atlanta - lakshmi.sathi96@gmail.com
 * Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com

@@ -82,11 +82,9 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 <h4> Acknowledgements: </h4>
 
 * I thank Mr. Kunal Ghosh co-founder VSD, for providing me the opportunity to  work on this wonderful project
-* I also thank Paras Gidd, who's work has been greatly helpful in helping me shape mine.
 
 <h4> Contact: </h4>
 
 * Lakshmi S (Author), MS ECE, Georgia Institute of Technology, Atlanta - lakshmi.sathi96@gmail.com
 * Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
-* Paras Gidd, M.Tech.( Microelectronics ), Manipal Institute of Technology,(MAHE) - parasgidd@gmail.com
 

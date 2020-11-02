@@ -64,7 +64,7 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 
 Lakshmi S - lakshmi.sathi96@gmail.com
 
-<h4> Acknowledgments: </h4>
+<h4> Acknowledgements: </h4>
 
 * I thank Mr. Kunal Ghosh co-founder VSD, for providing me the opportunity to  work on this wonderful project
 * I also thank Paras Gidd, who's work has been greatly helpful in helping me shape mine.

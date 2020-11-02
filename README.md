@@ -12,7 +12,7 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
 1. Specification
 2. [Pre-Layout Simulations](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-pll-output-tt-27degree-celcius-)
-3. [EDA Tools used](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-EDA-Tools-used-
+3. [EDA Tools used](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-EDA-Tools-used-)
 4. Future Work
 5. Acknowledgements
 6. Contacts

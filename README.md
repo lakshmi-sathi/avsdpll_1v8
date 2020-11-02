@@ -33,6 +33,24 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
 ![](Images/DutyCycle.png)
 
+<h4> Phase Detector 'Up' Signal (unbuffered): </h4>
+
+![](PhaseDetector/PD_10T_waveform.jpg)
+
+<h4> Phase Detector 'Down' Signal (unbuffered): </h4>
+
+![](PhaseDetector/PD_10T_waveform2.jpg)
+
+<h4> Charge Pump response to 'Up' signal: </h4>
+
+![](ChargePump/chpmp_up_merged.jpg)
+
+<h4> Charge Pump response to 'Down' signal: </h4>
+
+![](ChargePump/chpmp_down_merged.jpg)
+
+<h4> Frequency Divider (unbuffered): </h4>
+
 Custom selection of Phase Detector and Frequency Divider circuits were made to improve stability and reduce area/power consumption:
 * [Phase Detector](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/PhaseDetector)
 

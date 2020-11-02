@@ -20,7 +20,7 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
 <h3> Google-SkyWater 130nm PDK: </h3>
 
->This PLL circuit is built on the [Google-Skywater 130nm](https://github.com/google/skywater-pdk) node. It is a mature 180nm-130nm hybrid technology originally developed internally by Cypress Semiconductor<br>
+>This PLL circuit is built on the [Google-Skywater 130nm](https://github.com/google/skywater-pdk) node. It is a mature 180nm-130nm hybrid technology originally developed internally by Cypress Semiconductor.<br>
 >The SkyWater Open Source PDK is a collaboration between Google and SkyWater Technology Foundry to provide a fully open source Process Design Kit and related resources, which >can be used to create manufacturable designs at SkyWater’s facility. 
 
 <h3> Pre-Layout Simulations: </h3>
@@ -31,9 +31,21 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
 ![](Images/PLL_cust_42Mhz.jpg)
 
+Red: Up Signal
+Blue: Down Signal
+Orange: Input Reference Clock
+Green: Charge Pump Output
+Pink: PLL Clock Output
+
 <h5> In:12.5Mhz, Out: 97Mhz </h5>
 
 ![](Images/PLL_cust_97Mhz.jpg)
+
+Red: Up Signal
+Blue: Down Signal
+Orange: Input Reference Clock
+Green: Charge Pump Output
+Pink: PLL Clock Output
 
 <h4> Output Wave (33% Duty Cycle): </h4>
 

@@ -32,7 +32,8 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 * [Charge Pump](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/ChargePump)
 
 <h4> EDA Tools Used: </h4>
-* [ngspice](http://ngspice.sourceforge.net/download.html) (simulation)
+
+* [ngspice](http://ngspice.sourceforge.net/download.html) (simulation) <br>
 * [kicad](https://kicad.org/) (schematic capture)
 
 <h4> Instructions for simulation: </h4>

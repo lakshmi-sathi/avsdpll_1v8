@@ -8,6 +8,8 @@ Generates 8x Multiplied clock having 33% duty cycle
 Output frequency obtained for input 5Mhz: 42MHz  (Required: 40Mhz) <br>
 Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
+
+
 <h4> PLL Output (tt, 27degree Celcius): </h4>
 
 <h5> In:5Mhz, Out: 42Mhz </h5>
@@ -28,6 +30,10 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 * [Frequency Divider](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/FrequencyDivider) 
 
 * [Charge Pump](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/ChargePump)
+
+<h4> EDA Tools Used: </h4>
+* [ngspice](http://ngspice.sourceforge.net/download.html) (simulation)
+* [kicad](https://kicad.org/) (schematic capture)
 
 <h4> Instructions for simulation: </h4>
 

@@ -30,21 +30,21 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
 ![](Images/PLL_cust_42Mhz.jpg)
 
-Red: Up Signal <br>
-Blue: Down Signal <br>
-Orange: Input Reference Clock <br>
-Green: Charge Pump Output <br>
-Pink: PLL Clock Output 
+<b>Red:</b> Up Signal <br>
+<b>Blue:</b> Down Signal <br>
+<b>Orange:</b> Input Reference Clock <br>
+<b>Green:</b> Charge Pump Output <br>
+<b>Pink:</b> PLL Clock Output 
 
 <h5> In:12.5Mhz, Out: 97Mhz </h5>
 
 ![](Images/PLL_cust_97Mhz.jpg)
 
-Red: Up Signal <br>
-Blue: Down Signal <br>
-Orange: Input Reference Clock <br>
-Green: Charge Pump Output <br>
-Pink: PLL Clock Output
+<b>Red:</b> Up Signal <br>
+<b>Blue:</b> Down Signal <br>
+<b>Orange:</b> Input Reference Clock <br>
+<b>Green:</b> Charge Pump Output <br>
+<b>Pink:</b> PLL Clock Output
 
 <h4> Output Wave (33% Duty Cycle): </h4>
 

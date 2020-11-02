@@ -51,7 +51,7 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
 <h4> Frequency Divider (unbuffered): </h4>
 
-![](FrequencyDivider/FreqDiv2_ETSPC.jpg)
+![](FrequencyDivider/FD_stage3.jpg)
 
 Custom selection of Phase Detector and Frequency Divider circuits were made to improve stability and reduce area/power consumption:
 * [Phase Detector](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/PhaseDetector)

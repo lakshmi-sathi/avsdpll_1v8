@@ -62,7 +62,7 @@ Lakshmi S - lakshmi.sathi96@gmail.com
 
 <h4> Contacts: </h4>
 
-* Lakshmi S, MS ECE, Georgia Institute of Technology, Atlanta - lakshmi.sathi96@gmail.com
+* Lakshmi S (Author), MS ECE, Georgia Institute of Technology, Atlanta - lakshmi.sathi96@gmail.com
 * Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
 * Paras Gidd, M.Tech.( Microelectronics ), Manipal Institute of Technology,(MAHE) - parasgidd@gmail.com
 

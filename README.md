@@ -8,10 +8,13 @@ Generates 8x Multiplied clock having 33% duty cycle
 Output frequency obtained for input 5Mhz: 42MHz  (Required: 40Mhz) <br>
 Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
-<h4> Contents: </h4>
+<h3> Contents: </h3>
+
 1. Specification
 2. Pre-Layout Simulations
 3. EDA Tools used
+
+<h4> Pre-Layout Simulations: </h4>
 
 <h4> PLL Output (tt, 27degree Celcius): </h4>
 

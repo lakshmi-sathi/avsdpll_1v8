@@ -96,7 +96,7 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 
 * [Charge Pump](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/ChargePump)
 
-* [Voltage Controlled Oscillator] (https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/Oscillator)
+* [Voltage Controlled Oscillator](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/Oscillator)
 
 <h3> EDA Tools Used: </h4>
 

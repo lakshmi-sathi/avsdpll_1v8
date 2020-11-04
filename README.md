@@ -28,7 +28,7 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
 <h5> In:5Mhz, Out: 42Mhz </h5>
 
-![](Images/PLL_cust_42Mhz.jpg)
+![](Images/PLL40Mhz.jpg)
 
 <b>Red:</b> Up Signal <br>
 <b>Blue:</b> Down Signal <br>
@@ -38,7 +38,7 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
 <h5> In:12.5Mhz, Out: 97Mhz </h5>
 
-![](Images/PLL_cust_97Mhz.jpg)
+![](Images/PLL100Mhz.jpg)
 
 <b>Red:</b> Up Signal <br>
 <b>Blue:</b> Down Signal <br>

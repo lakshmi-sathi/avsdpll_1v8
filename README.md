@@ -125,6 +125,6 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 
 <h3> Contact: </h3>
 
-* Lakshmi S (Author), MS ECE, Georgia Institute of Technology, Atlanta - lakshmi.sathi96@gmail.com
+* Lakshmi S (Author), MS ECE, Georgia Institute of Technology - lakshmi.sathi96@gmail.com
 * Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
 

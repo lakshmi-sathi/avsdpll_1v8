@@ -1,0 +1,48 @@
+*Current starved 3 stage VCO
+.include sky130nm.lib
+
+xm1 10 16 3 10 sky130_fd_pr__pfet_01v8 l=150n w=420n
+xm2 3 16 9 9  sky130_fd_pr__nfet_01v8 l=150n w=420n
+
+xm3 10 3 4 10 sky130_fd_pr__pfet_01v8 l=150n w=420n
+xm4 4 3 9 9 sky130_fd_pr__nfet_01v8 l=150n w=420n
+
+xm5 10 4 12 10 sky130_fd_pr__pfet_01v8 l=150n w=420n
+xm6 12 4 9 9 sky130_fd_pr__nfet_01v8 l=150n w=420n
+
+xm11 10 12 13 10 sky130_fd_pr__pfet_01v8 l=150n w=420n
+xm12 13 12 9 9 sky130_fd_pr__nfet_01v8 l=150n w=420n
+
+xm13 10 13 14 10 sky130_fd_pr__pfet_01v8 l=150n w=420n
+xm14 14 13 9 9 sky130_fd_pr__nfet_01v8 l=150n w=420n
+
+xm15 10 14 15 10 sky130_fd_pr__pfet_01v8 l=150n w=420n
+xm16 15 14 9 9 sky130_fd_pr__nfet_01v8 l=150n w=420n
+
+xm17 10 15 16 10 sky130_fd_pr__pfet_01v8 l=150n w=2400n
+xm18 16 15 9 9 sky130_fd_pr__nfet_01v8 l=150n w=1200n
+
+xm7 10 5 1 1 sky130_fd_pr__pfet_01v8 l=150n w=1080n
+xm8 5 5 1 1 sky130_fd_pr__pfet_01v8 l=150n w=840n
+xm9 5 in 0 0 sky130_fd_pr__nfet_01v8 l=150n w=840n
+xm10 9 in 0 0 sky130_fd_pr__nfet_01v8 l=150n w=1080n
+
+xm19 1 16 11 1 sky130_fd_pr__pfet_01v8 l=150n w=1080n
+xm20 11 16 0 0 sky130_fd_pr__nfet_01v8 l=150n w=540n
+
+*c1 11 0 10f
+v1 1 0 1.8
+v2 in 0 1.2   
+
+
+.control
+tran 0.1ns 1us
+plot v(in) v(11)
+*setplot tran1
+*linearize v(14)
+*set specwindow=blackman
+*fft v(14)
+*dc v2 0 1.2 0.01
+*plot mag(v(14))
+.endc
+.end

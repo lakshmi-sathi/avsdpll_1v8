@@ -1,0 +1,40 @@
+* SPICE3 file created from FD.ext - technology: sky130A
+.include sky130nm.lib
+.option scale=0.01u
+
+XM1000 a_151_n55# Clk_In a_44_n10# 0 sky130_fd_pr__nfet_01v8 w=84 l=15
++  ad=2436 pd=226 as=2436 ps=249.2
+XM1001 Clk_Out Clk_In a_260_n10# VDD sky130_fd_pr__pfet_01v8 w=42 l=15
++  ad=1218 pd=142 as=1218 ps=126.737
+XM1002 a_44_n10# a_n3_42# VDD VDD sky130_fd_pr__pfet_01v8 w=72 l=15
++  ad=2088 pd=217.263 as=2088 ps=202
+XM1003 a_260_n10# a_151_n55# VDD VDD sky130_fd_pr__pfet_01v8 w=72 l=15
++  ad=2088 pd=217.263 as=2088 ps=202
+XM1004 a_n68_n10# Clk_In 0 0 sky130_fd_pr__nfet_01v8 w=36 l=15
++  ad=1044 pd=130 as=1044 ps=130
+XM1005 a_n3_42# Clk_Out 0 0 sky130_fd_pr__nfet_01v8 w=36 l=15
++  ad=1044 pd=130 as=1044 ps=130
+XM1006 a_151_n55# a_n68_n10# a_44_n10# VDD sky130_fd_pr__pfet_01v8 w=42 l=15
++  ad=1218 pd=142 as=1218 ps=126.737
+XM1007 a_n68_n10# Clk_In VDD VDD sky130_fd_pr__pfet_01v8 w=72 l=15
++  ad=2088 pd=202 as=2088 ps=202
+XM1008 Clk_Out a_n68_n10# a_260_n10# 0 sky130_fd_pr__nfet_01v8 w=84 l=15
++  ad=2436 pd=226 as=2436 ps=249.2
+XM1009 a_44_n10# a_n3_42# 0 0 sky130_fd_pr__nfet_01v8 w=36 l=15
++  ad=1044 pd=106.8 as=1044 ps=130
+XM1010 a_n3_42# Clk_Out VDD VDD sky130_fd_pr__pfet_01v8 w=72 l=15
++  ad=2088 pd=202 as=2088 ps=202
+XM1011 a_260_n10# a_151_n55# 0 0 sky130_fd_pr__nfet_01v8 w=36 l=15
++  ad=1044 pd=106.8 as=1044 ps=130
+C0 VDD 0 2.94fF
+V1 VDD 0 1.8
+
+
+v1 VDD 0 1.8
+v2 Clk_In 0 PULSE 0 1.8 1p 6p 6p 100ns 200ns
+
+.ic v(Clk_Out) = 0
+.control 
+tran 1ns 5us
+plot v(Clk_In)+2 v(Clk_Out)
+.endc

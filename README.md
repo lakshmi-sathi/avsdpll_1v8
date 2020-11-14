@@ -60,11 +60,12 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
 <b>Red:</b> Charge Pump Output Voltage<br>
 
-<h4> Charge Pump output rise due toleakage: </h4>
+<h4> Charge Pump output rise due to charge leakage: </h4>
 
 ![](ChargePump/Pre_Layout/CP_PreLay_Leakage.jpg)
 
-<b>Orange:</b> Charge Pump Output Voltage <br>
+<b>Red:</b> Charge Pump Output Voltage <br>
+<b>Leakage:</b> 40uV increase every 1us <br>
 
 <h4> Frequency Divider: </h4>
 

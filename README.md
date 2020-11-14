@@ -108,6 +108,8 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 
 ![](PhaseFrequencyDetector/Post_Layout/PD_Layout.jpg)
 
+<b> Area: </b> 40.96um square
+
 <h4> Charge Pump </h4>
 
 ![](ChargePump/Post_Layout/CP_Layout.jpg)

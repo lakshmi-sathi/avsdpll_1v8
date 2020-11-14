@@ -30,36 +30,18 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
 <h4> PLL Output (tt, 27degree Celcius): </h4>
 
-<h5> In:5Mhz, Out: 42Mhz </h5>
+<h4> Phase Frequency Detector 'Up' Signal : </h4>
 
-![](Images/PLL40Mhz.jpg)
-
-<b>Red:</b> Up Signal <br>
-<b>Blue:</b> Down Signal <br>
-<b>Orange:</b> Input Reference Clock <br>
-<b>Green:</b> Charge Pump Output <br>
-<b>Pink:</b> PLL Clock Output 
-
-<h5> In:12.5Mhz, Out: 97Mhz </h5>
-
-![](Images/PLL100Mhz.jpg)
-
-<b>Red:</b> Up Signal <br>
-<b>Blue:</b> Down Signal <br>
-<b>Orange:</b> Input Reference Clock <br>
-<b>Green:</b> Charge Pump Output <br>
-<b>Pink:</b> PLL Clock Output
-
-<h4> Phase Detector 'Up' Signal (unbuffered): </h4>
-
-![](PhaseFrequencyDetector/Pre_Layout/PD_10T_waveform.jpg)
+![](PhaseFrequencyDetector/Pre_Layout/PD_PreLay_Up.jpg)
 
 <b>Red:</b> Clock 2 <br>
 <b>Blue:</b> Clock 1 <br>
 <b>Orange:</b> Up Signal <br>
 <b>Green:</b> Down Signal
 
-![](PhaseFrequencyDetector/Pre_Layout/PD_10T_waveform2.jpg)
+<h4> Phase Frequency Detector 'Down' Signal : </h4>
+
+![](PhaseFrequencyDetector/Pre_Layout/PD_PreLay_Down.jpg)
 
 <b>Red:</b> Clock 2 <br>
 <b>Blue:</b> Clock 1 <br>
@@ -68,23 +50,25 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
 <h4> Charge Pump response to 'Up' signal: </h4>
 
-![](ChargePump/chpmp_up_merged.jpg)
+![](ChargePump/Pre_Layout/CP_PreLay_Charge.jpg)
 
-<b>Red:</b> Charge Pump Output <br>
-<b>Blue:</b> Up Signal <br>
-<b>Orange:</b> Down Signal <br>
+<b>Red:</b> Charge Pump Output Voltage <br>
 
 <h4> Charge Pump response to 'Down' signal: </h4>
 
-![](ChargePump/chpmp_down_merged.jpg)
+![](ChargePump/Pre_Layout/CP_PreLay_Discharge.jpg)
 
-<b>Red:</b> Charge Pump Output <br>
-<b>Blue:</b> Up Signal <br>
-<b>Orange:</b> Down Signal <br>
+<b>Red:</b> Charge Pump Output Voltage<br>
 
-<h4> Frequency Divider (unbuffered): </h4>
+<h4> Charge Pump output rise due toleakage: </h4>
 
-![](FrequencyDivider/FD_stage3.jpg)
+![](ChargePump/Pre_Layout/CP_PreLay_Leakage.jpg)
+
+<b>Orange:</b> Charge Pump Output Voltage <br>
+
+<h4> Frequency Divider: </h4>
+
+![](FrequencyDivider/Pre_Layout/FD_PreLay.jpg)
 
 <b>Red:</b> Input Clock <br>
 <b>Blue:</b> Output Clock <br>

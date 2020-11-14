@@ -156,8 +156,8 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 
 ![](FrequencyDivider/Post_Layout/FD_PostLay.jpg)
 
-<b>Red:</b> Output Clock <br>
-<b>Blue:</b> Input Clock <br>
+<b>Red:</b> Input Clock <br>
+<b>Blue:</b> Output Clock <br>
 
 
 <h3> EDA Tools Used: </h3>

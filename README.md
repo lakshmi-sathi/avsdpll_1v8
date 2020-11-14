@@ -109,6 +109,51 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 
 <h3> Post-Layout Simulations: </h3>
 
+<h4> Phase Frequency Detector 'Up' Signal : </h4>
+
+![](PhaseFrequencyDetector/Post_Layout/PD_PostLay_Up.jpg)
+
+<b>Red:</b> Clock 2 <br>
+<b>Blue:</b> Clock 1 <br>
+<b>Orange:</b> Up Signal <br>
+<b>Green:</b> Down Signal
+
+<h4> Phase Frequency Detector 'Down' Signal : </h4>
+
+![](PhaseFrequencyDetector/Post_Layout/PD_PostLay_Down.jpg)
+
+<b>Red:</b> Clock 2 <br>
+<b>Blue:</b> Clock 1 <br>
+<b>Orange:</b> Up Signal <br>
+<b>Green:</b> Down Signal
+
+<h4> Charge Pump response to 'Up' signal: </h4>
+
+![](ChargePump/Post_Layout/CP_PostLayout_Charge.jpg)
+
+<b>Red:</b> Charge Pump Output Voltage <br>
+
+<h4> Charge Pump response to 'Down' signal: </h4>
+
+![](ChargePump/Post_Layout/CP_PostLayout_Discharge.jpg)
+
+<b>Red:</b> Charge Pump Output Voltage<br>
+
+<h4> Charge Pump output rise due to charge leakage: </h4>
+
+![](ChargePump/Post_Layout/CP_PostLayout_Leakage.jpg)
+
+<b>Red:</b> Charge Pump Output Voltage <br>
+<b>Leakage:</b> 40uV increase every 1us <br>
+
+<h4> Frequency Divider: </h4>
+
+![](FrequencyDivider/Post_Layout/FD_PreLay.jpg)
+
+<b>Red:</b> Output Clock <br>
+<b>Blue:</b> Input Clock <br>
+
+
 <h3> EDA Tools Used: </h3>
 
 * [kicad](https://kicad.org/) (schematic capture) <br>

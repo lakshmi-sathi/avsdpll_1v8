@@ -107,8 +107,9 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 
 <h3> EDA Tools Used: </h3>
 
+* [kicad](https://kicad.org/) (schematic capture) <br>
 * [ngspice](http://ngspice.sourceforge.net/download.html) (simulation) <br>
-* [kicad](https://kicad.org/) (schematic capture)
+* [magic](http://opencircuitdesign.com/magic/) (layout design) 
 
 <h3> Instructions for simulation: </h3>
 

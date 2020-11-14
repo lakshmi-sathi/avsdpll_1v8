@@ -13,7 +13,7 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 1. [Google-SkyWater 130nm PDK](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md-Google-SkyWater-130nm-PDK-)
 2. [Pre-Layout Simulations](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-Pre-Layout-Simulations-)
 3. [Layout](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-Layout-)
-4. [Post-Layout Simulations]
+4. [Post-Layout Simulations](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-Post-Layout-Simulations-)
 5. [EDA tools used](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-EDA-tools-used-)
 6. [Instructions for simulation](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-Instructions-for-simulation-)
 7. [Future Scope](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-Future-Scope-)
@@ -103,6 +103,7 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 <h3> Layout: </h3>
 
 
+<h3> Post-Layout Simulations: </h3>
 
 <h3> EDA Tools Used: </h3>
 

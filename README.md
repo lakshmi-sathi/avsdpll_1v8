@@ -7,8 +7,6 @@ Generates 8x Multiplied Clock
 
 Duty Cycle obtained ~50%
 
-Output frequency obtained for input 5Mhz: 42MHz  (Required: 40Mhz) <br>
-Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
 <h2> Contents: </h2>
 
@@ -121,7 +119,7 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 
 <h4> For using magic for layout: </h4>
 
-* Get magic v8.3.82 or above from [here](http://opencircuitdesign.com/magic <br>
+* Get magic v8.3.82 or above from [here](http://opencircuitdesign.com/magic) <br>
 * Place the tech file [sky130.tech](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/sky130.tech) in the folder where you'll be using magic <br>
 * Open magic using the command:
     ```magic -T sky130```

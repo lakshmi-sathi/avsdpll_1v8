@@ -54,14 +54,14 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
 <h4> Phase Detector 'Up' Signal (unbuffered): </h4>
 
-![](PhaseDetector/PD_10T_waveform.jpg)
+![](PhaseFrequencyDetector/Pre_Layout/PD_10T_waveform.jpg)
 
 <b>Red:</b> Clock 2 <br>
 <b>Blue:</b> Clock 1 <br>
 <b>Orange:</b> Up Signal <br>
 <b>Green:</b> Down Signal
 
-![](PhaseDetector/PD_10T_waveform2.jpg)
+![](PhaseFrequencyDetector/Pre_Layout/PD_10T_waveform2.jpg)
 
 <b>Red:</b> Clock 2 <br>
 <b>Blue:</b> Clock 1 <br>
@@ -100,7 +100,11 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 
 * [Voltage Controlled Oscillator](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/Oscillator)
 
-<h3> EDA Tools Used: </h4>
+<h3> Layout: </h3>
+
+
+
+<h3> EDA Tools Used: </h3>
 
 * [ngspice](http://ngspice.sourceforge.net/download.html) (simulation) <br>
 * [kicad](https://kicad.org/) (schematic capture)

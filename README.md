@@ -70,8 +70,8 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 
 ![](FrequencyDivider/Pre_Layout/FD_PreLay.jpg)
 
-<b>Red:</b> Input Clock <br>
-<b>Blue:</b> Output Clock <br>
+<b>Red:</b> Output Clock <br>
+<b>Blue:</b> Input Clock <br>
 
 Custom selection of Phase Detector and Frequency Divider circuits were made to improve stability and reduce area/power consumption:
 * [Phase Frequency Detector](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/PhaseFrequencyDetector)

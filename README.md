@@ -101,15 +101,19 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 <h3> Layout: </h3>
 
 <h4> Frequency Divider </h4>
-![](FrequencyDivider/Post_Layout/FD_Layout.jpg)
+
+![](FrequencyDivider/Post_Layout/PD_Layout.jpg)
 
 <h4> Phase Frequency Detector </h4>
+
 ![](PhaseFrequencyDetector/Post_Layout/PD_Layout.jpg)
 
 <h4> Charge Pump </h4>
+
 ![](ChargePump/Post_Layout/CP_Layout.jpg)
 
 <h4> Voltage Controlled Oscillator </h4>
+
 ![](Oscillator/Post_Layout/VCO_Layout.jpg)
 
 <h3> Post-Layout Simulations: </h3>

@@ -90,7 +90,7 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 <b>Blue:</b> Output Clock <br>
 
 Custom selection of Phase Detector and Frequency Divider circuits were made to improve stability and reduce area/power consumption:
-* [Phase Detector](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/PhaseDetector)
+* [Phase Frequency Detector](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/PhaseFrequencyDetector)
 
 * [Frequency Divider](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/FrequencyDivider) 
 
@@ -100,6 +100,17 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 
 <h3> Layout: </h3>
 
+<h4> Frequency Divider </h4>
+![](FrequencyDivider/Post_Layout/FD_Layout.jpg)
+
+<h4> Phase Frequency Detector </h4>
+![](PhaseFrequencyDetector/Post_Layout/PD_Layout.jpg)
+
+<h4> Charge Pump </h4>
+![](ChargePump/Post_Layout/CP_Layout.jpg)
+
+<h4> Voltage Controlled Oscillator </h4>
+![](Oscillator/Post_Layout/VCO_Layout.jpg)
 
 <h3> Post-Layout Simulations: </h3>
 

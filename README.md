@@ -132,7 +132,7 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 ![](ChargePump/Post_Layout/CP_PostLayout_Charge.jpg)
 
 <b>Orange:</b> Charge Pump Output Voltage <br>
-<b>Red:</b> Up Signal
+<b>Red:</b> Up Signal <br>
 <b>Blue:</b> Down Signal
 
 <h4> Charge Pump response to 'Down' signal: </h4>
@@ -140,7 +140,7 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 ![](ChargePump/Post_Layout/CP_PostLayout_Discharge.jpg)
 
 <b>Orange:</b> Charge Pump Output Voltage <br>
-<b>Red:</b> Up Signal
+<b>Red:</b> Up Signal <br>
 <b>Blue:</b> Down Signal
 
 <h4> Charge Pump output rise due to charge leakage: </h4>
@@ -148,13 +148,13 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 ![](ChargePump/Post_Layout/CP_PostLayout_Leakage.jpg)
 
 <b>Orange:</b> Charge Pump Output Voltage <br>
-<b>Red:</b> Up Signal
-<b>Blue:</b> Down Signal
+<b>Red:</b> Up Signal <br>
+<b>Blue:</b> Down Signal <br>
 <b>Leakage:</b> 5mV increase every 1us <br>
 
 <h4> Frequency Divider: </h4>
 
-![](FrequencyDivider/Post_Layout/FD_PreLay.jpg)
+![](FrequencyDivider/Post_Layout/FD_PostLay.jpg)
 
 <b>Red:</b> Output Clock <br>
 <b>Blue:</b> Input Clock <br>

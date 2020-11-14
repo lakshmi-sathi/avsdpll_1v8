@@ -116,6 +116,8 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 
 ![](Oscillator/Post_Layout/VCO_Layout.jpg)
 
+<b> Area: </b> 60.28um square
+
 <h3> Post-Layout Simulations: </h3>
 
 <h3> EDA Tools Used: </h3>

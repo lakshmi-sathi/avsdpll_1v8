@@ -72,7 +72,7 @@ Duty Cycle obtained ~50%
 <b>Red:</b> Output Clock <br>
 <b>Blue:</b> Input Clock <br>
 
-Custom selection of Phase Detector and Frequency Divider circuits were made to improve stability and reduce area/power consumption:
+These above circuits were custom selected to improve stability and reduce area/power consumption:
 * [Phase Frequency Detector](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/PhaseFrequencyDetector)
 
 * [Frequency Divider](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/FrequencyDivider) 

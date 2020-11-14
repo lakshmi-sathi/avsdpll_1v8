@@ -50,10 +50,6 @@ Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)
 <b>Green:</b> Charge Pump Output <br>
 <b>Pink:</b> PLL Clock Output
 
-<h4> Output Wave (33% Duty Cycle): </h4>
-
-![](Images/DutyCycle.png)
-
 <h4> Phase Detector 'Up' Signal (unbuffered): </h4>
 
 ![](PhaseFrequencyDetector/Pre_Layout/PD_10T_waveform.jpg)

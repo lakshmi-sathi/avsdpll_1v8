@@ -117,14 +117,17 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 * [ngspice](http://ngspice.sourceforge.net/download.html) (simulation) <br>
 * [magic](http://opencircuitdesign.com/magic/) (layout design) 
 
-<h3> Instructions for simulation: </h3>
+<h3> Instructions: </h3>
 
-* The required sky130nm primitives are present inside the 'Sky130_Primitives' folder and already included inside PLL.cir
-* Install ngspice if not already installed: 
-    On Ubuntu systems - ```sudo apt-get install ngspice```
-* Clone the repo:
-    ```git clone https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP.git```
-* Move to the cloned repo directory.
+<h4> For using magic for layout: </h4>
+* Get magic v8.3.82 or above from [here](http://opencircuitdesign.com/magic/)
+* Place the tech file [sky130.tech](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/sky130.tech) in the folder where you'll be using magic
+* Open magic using the command:
+    ```magic -T sky130```
+
+<h4> For using ngpice for simulations: </h4>
+* Get ngspice from [here](http://ngspice.sourceforge.net/) or for ubuntu users, just use this command: ```sudo apt-get install ngspice```
+* Place the [sky130nm.lib](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/sky130nm.lib) file in the folder you'll be running ngspice
 * Run the simulation: 
     ```ngspice PLL.cir``` 
 

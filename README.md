@@ -104,6 +104,8 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 
 ![](FrequencyDivider/Post_Layout/FD_Layout.jpg)
 
+<b> Area: </b> 28.16um square
+
 <h4> Phase Frequency Detector </h4>
 
 ![](PhaseFrequencyDetector/Post_Layout/PD_Layout.jpg)
@@ -113,6 +115,8 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 <h4> Charge Pump </h4>
 
 ![](ChargePump/Post_Layout/CP_Layout.jpg)
+
+<b> Area: </b> 55.49um square
 
 <h4> Voltage Controlled Oscillator </h4>
 

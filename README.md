@@ -102,7 +102,7 @@ Custom selection of Phase Detector and Frequency Divider circuits were made to i
 
 <h4> Frequency Divider </h4>
 
-![](FrequencyDivider/Post_Layout/PD_Layout.jpg)
+![](FrequencyDivider/Post_Layout/FD_Layout.jpg)
 
 <h4> Phase Frequency Detector </h4>
 

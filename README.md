@@ -3,7 +3,9 @@
 
 Tested through spice simulations on skywater 130nm tt corner at room termperature
 
-Generates 8x Multiplied clock having 33% duty cycle
+Generates 8x Multiplied Clock
+
+Duty Cycle obtained ~50%
 
 Output frequency obtained for input 5Mhz: 42MHz  (Required: 40Mhz) <br>
 Output frequency obtained for input 12.5Mhz: 97Mhz   (Required: 100Mhz)

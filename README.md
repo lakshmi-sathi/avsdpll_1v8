@@ -28,11 +28,7 @@ Duty Cycle obtained ~50%
 
 <h4> PLL Output (tt, 27degree Celcius): </h4>
 
-40Mhz
-![](PLL40Mhz.jpg)
-
-100Mhz
-![](PLL100Mhz.jpg)
+![](PLL_40mhz.jpg)
 
 <h4> Phase Frequency Detector 'Up' Signal : </h4>
 

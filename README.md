@@ -89,7 +89,7 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 ![](FrequencyDivider/Post_Layout/FD_Layout.jpg)
 
-<b> Area: </b> 28.16um square
+<b> Area: </b> 29.92um square
 
 <h4> Phase Frequency Detector </h4>
 
@@ -101,13 +101,13 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 ![](ChargePump/Post_Layout/CP_Layout.jpg)
 
-<b> Area: </b> 55.49um square
+<b> Area: </b> 54.91um square
 
 <h4> Voltage Controlled Oscillator </h4>
 
 ![](Oscillator/Post_Layout/VCO_Layout.jpg)
 
-<b> Area: </b> 60.28um square
+<b> Area: </b> 57.73um square
 
 <h3> Post-Layout Simulations: </h3>
 

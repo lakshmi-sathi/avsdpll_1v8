@@ -5,6 +5,9 @@ Tested through spice simulations on skywater 130nm tt corner at room termperatur
 
 Generates 8x Multiplied Clock
 
+Frequency Obtained for 5Mhz input: 40Mhz
+Frequency Obtained for 12.5Mhz input: 100Mhz
+
 Duty Cycle obtained: 46% at 40Mhz and 40.6% at 100Mhz
 
 

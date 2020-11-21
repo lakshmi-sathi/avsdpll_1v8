@@ -103,7 +103,7 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 <h4> Phase Frequency Detector </h4>
 
-![](PhaseFrequencyDetector/Post_Layout/PD_Layout.jpg)
+![](PhaseFrequencyDetector/Post_Layout/PFD_Layout.jpg)
 
 <b> Area: </b> 40.96um square
 
@@ -123,7 +123,7 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 <h4> Phase Frequency Detector 'Up' Signal : </h4>
 
-![](PhaseFrequencyDetector/Post_Layout/PD_PostLay_Up.jpg)
+![](PhaseFrequencyDetector/Post_Layout/PFD_PostLay_Up.jpg)
 
 <b>Red:</b> Clock 1 <br>
 <b>Blue:</b> Clock 2 <br>
@@ -132,7 +132,7 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 <h4> Phase Frequency Detector 'Down' Signal : </h4>
 
-![](PhaseFrequencyDetector/Post_Layout/PD_PostLay_Down.jpg)
+![](PhaseFrequencyDetector/Post_Layout/PFD_PostLay_Down.jpg)
 
 <b>Red:</b> Clock1 2 <br>
 <b>Blue:</b> Clock 2 <br>

@@ -28,15 +28,15 @@ Duty Cycle obtained ~50%
 
 <h4> PLL Output (tt, 27degree Celcius): </h4>
 
-40Mhz Output:
-Trend
+40Mhz Output: <br>
+Trend <br>
 ![](PLL/Pre_Layout/5MhzInputFullPicture.jpg)
-Steady State
-![](PLL/Pre_Layout/5MhzInputSteadyState.jpg)
-100Mhz Output:
-Trend
+Steady State <br>
+![](PLL/Pre_Layout/5MhzInputSteadyState.png)
+100Mhz Output: <br>
+Trend <br>
 ![](PLL/Pre_Layout/12.5MhzInputFullPicture.jpg)
-Steady State
+Steady State <br>
 ![](PLL/Pre_Layout/12.5MhzInputSteadyState.jpg)
 
 

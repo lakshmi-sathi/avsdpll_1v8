@@ -27,10 +27,19 @@ Duty Cycle obtained ~50%
 <h3> Pre-Layout Simulations: </h3>
 
 <h4> PLL Output (tt, 27degree Celcius): </h4>
+40Mhz Output:
+Trend
+![](PLL/Pre_Layout/5MhzInputFullPicture.jpg)
+Steady State
+![](PLL/Pre_Layout/5MhzInputSteadyState.jpg)
+100Mhz Output:
+Trend
+![](PLL/Pre_Layout/12.5MhzInputFullPicture.jpg)
+Steady State
+![](PLL/Pre_Layout/12.5MhzInputSteadyState.jpg)
 
-![](PLL_40Mhz.jpg)
 
-<h4> Phase Frequency Detector 'Up' Signal : </h4>
+<h4> Phase Frequency Detector 'Up' Signal : </4>
 
 ![](PhaseFrequencyDetector/Pre_Layout/PD_PreLay_Up.jpg)
 

@@ -162,7 +162,7 @@ These above circuits were custom selected to improve stability and reduce area/p
 <b>Orange:</b> Charge Pump Output Voltage <br>
 <b>Red:</b> Up Signal <br>
 <b>Blue:</b> Down Signal <br>
-<b>Leakage:</b> 5mV increase every 1us <br>
+<b>Leakage:</b> < 0.05V in 100us <br>
 
 <h4> Frequency Divider: </h4>
 

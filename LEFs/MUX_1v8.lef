@@ -1,0 +1,120 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO MUX
+  CLASS CORE ;
+  FOREIGN MUX ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 4.080 BY 2.970 ;
+  SITE unithddb1 ;
+  PIN SEL
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.324000 ;
+    PORT
+      LAYER li1 ;
+        RECT 2.760 2.630 3.090 2.800 ;
+        RECT 0.760 0.370 1.090 0.540 ;
+        RECT 1.630 0.350 1.960 0.560 ;
+      LAYER mcon ;
+        RECT 2.840 2.630 3.010 2.800 ;
+        RECT 0.840 0.370 1.010 0.540 ;
+        RECT 1.710 0.370 1.880 0.540 ;
+      LAYER met1 ;
+        RECT 2.760 2.550 3.080 2.870 ;
+        RECT 1.630 0.600 1.950 0.610 ;
+        RECT 0.000 0.300 1.950 0.600 ;
+        RECT 1.630 0.290 1.950 0.300 ;
+      LAYER via ;
+        RECT 2.790 2.580 3.050 2.840 ;
+        RECT 1.660 0.320 1.920 0.580 ;
+      LAYER met2 ;
+        RECT 2.760 2.830 3.080 2.870 ;
+        RECT 2.230 2.580 3.080 2.830 ;
+        RECT 1.630 0.600 1.950 0.610 ;
+        RECT 2.230 0.600 2.480 2.580 ;
+        RECT 2.760 2.550 3.080 2.580 ;
+        RECT 1.630 0.300 2.480 0.600 ;
+        RECT 1.630 0.290 1.950 0.300 ;
+    END
+  END SEL
+  PIN A
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.313200 ;
+    PORT
+      LAYER li1 ;
+        RECT 2.610 0.740 2.780 2.340 ;
+      LAYER mcon ;
+        RECT 2.610 2.120 2.780 2.290 ;
+      LAYER met1 ;
+        RECT 0.000 2.060 2.840 2.350 ;
+    END
+  END A
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.313200 ;
+    PORT
+      LAYER li1 ;
+        RECT 1.480 1.490 1.650 2.340 ;
+        RECT 1.330 1.220 1.650 1.490 ;
+        RECT 1.480 0.740 1.650 1.220 ;
+      LAYER mcon ;
+        RECT 1.350 1.260 1.520 1.430 ;
+      LAYER met1 ;
+        RECT 0.000 1.200 1.580 1.500 ;
+    END
+  END B
+  PIN Out
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.626400 ;
+    PORT
+      LAYER li1 ;
+        RECT 1.920 0.740 2.090 2.340 ;
+        RECT 3.050 2.320 3.220 2.340 ;
+        RECT 3.050 2.090 3.340 2.320 ;
+        RECT 3.050 0.740 3.220 2.090 ;
+      LAYER mcon ;
+        RECT 1.920 1.280 2.090 1.450 ;
+        RECT 3.140 2.120 3.310 2.290 ;
+      LAYER met1 ;
+        RECT 3.080 2.060 3.900 2.350 ;
+        RECT 3.630 1.880 3.900 2.060 ;
+        RECT 3.630 1.510 4.080 1.880 ;
+        RECT 1.860 1.460 4.080 1.510 ;
+        RECT 1.860 1.220 3.920 1.460 ;
+    END
+  END Out
+  PIN VDD
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER nwell ;
+        RECT 0.120 2.520 1.710 2.970 ;
+        RECT 0.120 1.440 3.460 2.520 ;
+      LAYER li1 ;
+        RECT 0.420 1.620 0.590 2.930 ;
+    END
+  END VDD
+  PIN GND
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER li1 ;
+        RECT 0.420 0.200 0.590 1.100 ;
+        RECT 0.300 0.000 0.710 0.200 ;
+    END
+  END GND
+  OBS
+      LAYER li1 ;
+        RECT 0.860 2.610 2.440 2.820 ;
+        RECT 0.860 0.740 1.030 2.610 ;
+        RECT 2.270 0.570 2.440 2.610 ;
+        RECT 2.270 0.360 3.090 0.570 ;
+  END
+END MUX
+END LIBRARY
+

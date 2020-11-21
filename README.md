@@ -27,6 +27,7 @@ Duty Cycle obtained ~50%
 <h3> Pre-Layout Simulations: </h3>
 
 <h4> PLL Output (tt, 27degree Celcius): </h4>
+
 40Mhz Output:
 Trend
 ![](PLL/Pre_Layout/5MhzInputFullPicture.jpg)

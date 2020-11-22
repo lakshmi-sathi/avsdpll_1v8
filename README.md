@@ -7,8 +7,8 @@ Generates 8x Multiplied Clock
 
 <b> Pre-Layout: </b> <br>
 
-Frequency Obtained for 5Mhz input: &nbsp;&nbsp;;&nbsp;40MHz <br>
-Frequency Obtained for 12.5Mhz input: &nbsp;&nbsp;;&nbsp;100MHz
+Frequency Obtained for 5Mhz input: &nbsp;&nbsp;&nbsp;40MHz <br>
+Frequency Obtained for 12.5Mhz input: &nbsp;&nbsp;&nbsp;100MHz
 
 Duty Cycle obtained: &nbsp;&nbsp;&nbsp;46% at 40MHz and 40.6% at 100MHz
 

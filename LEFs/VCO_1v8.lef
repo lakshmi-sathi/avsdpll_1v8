@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO /mnt/c/Users/LENOVO/Documents/PLL/Layout/VCO
+MACRO VCO
   CLASS CORE ;
-  FOREIGN /mnt/c/Users/LENOVO/Documents/PLL/Layout/VCO ;
+  FOREIGN VCO ;
   ORIGIN 0.000 0.000 ;
   SIZE 9.020 BY 6.400 ;
   SITE unithddb1 ;
@@ -96,8 +96,7 @@ MACRO /mnt/c/Users/LENOVO/Documents/PLL/Layout/VCO
     USE GROUND ;
     PORT
       LAYER li1 ;
-        RECT 0.690 5.230 0.860 5.460 ;
-        RECT 0.690 5.060 2.090 5.230 ;
+        RECT 0.690 5.060 0.860 5.460 ;
         RECT 0.690 4.780 3.370 5.060 ;
         RECT 0.690 4.620 0.860 4.780 ;
         RECT 1.390 4.740 3.370 4.780 ;
@@ -136,8 +135,7 @@ MACRO /mnt/c/Users/LENOVO/Documents/PLL/Layout/VCO
     ANTENNAGATEAREA 0.063000 ;
     PORT
       LAYER li1 ;
-        RECT 6.470 4.810 6.810 4.900 ;
-        RECT 6.460 4.560 6.810 4.810 ;
+        RECT 6.460 4.560 6.810 4.900 ;
       LAYER mcon ;
         RECT 6.550 4.630 6.720 4.800 ;
       LAYER met1 ;
@@ -147,23 +145,18 @@ MACRO /mnt/c/Users/LENOVO/Documents/PLL/Layout/VCO
   OBS
       LAYER li1 ;
         RECT 0.250 4.620 0.420 5.460 ;
-        RECT 4.300 5.250 5.220 5.360 ;
-        RECT 5.470 5.250 5.640 5.450 ;
-        RECT 4.300 5.040 5.640 5.250 ;
-        RECT 4.720 4.840 5.640 5.040 ;
+        RECT 5.470 5.360 5.640 5.450 ;
+        RECT 4.300 4.840 5.640 5.360 ;
         RECT 5.470 4.610 5.640 4.840 ;
-        RECT 5.910 4.540 6.110 5.490 ;
-        RECT 7.100 5.270 8.580 5.690 ;
-        RECT 8.170 5.130 8.580 5.270 ;
-        RECT 5.850 4.410 6.110 4.540 ;
+        RECT 5.910 4.410 6.110 5.490 ;
+        RECT 7.100 5.270 8.340 5.690 ;
         RECT 3.930 4.240 6.110 4.410 ;
-        RECT 7.150 4.090 7.320 4.760 ;
         RECT 0.210 3.770 2.280 4.020 ;
         RECT 3.930 3.800 5.010 3.970 ;
+        RECT 7.150 3.830 7.320 4.760 ;
         RECT 0.210 1.270 0.580 3.770 ;
         RECT 4.150 3.440 4.740 3.800 ;
-        RECT 6.430 3.740 7.320 4.090 ;
-        RECT 5.830 3.440 7.320 3.740 ;
+        RECT 6.170 3.440 7.320 3.830 ;
         RECT 1.150 3.120 7.320 3.440 ;
         RECT 1.150 2.530 1.320 3.120 ;
         RECT 1.590 2.280 1.760 2.950 ;
@@ -179,8 +172,7 @@ MACRO /mnt/c/Users/LENOVO/Documents/PLL/Layout/VCO
         RECT 6.590 2.280 6.760 2.950 ;
         RECT 7.150 2.530 7.320 3.120 ;
         RECT 7.590 2.340 7.760 4.760 ;
-        RECT 8.170 4.400 8.470 5.130 ;
-        RECT 8.170 2.530 8.340 4.400 ;
+        RECT 8.170 2.530 8.340 5.270 ;
         RECT 0.820 2.110 1.420 2.280 ;
         RECT 1.590 2.110 2.420 2.280 ;
         RECT 2.590 2.110 3.420 2.280 ;
@@ -214,13 +206,12 @@ MACRO /mnt/c/Users/LENOVO/Documents/PLL/Layout/VCO
         RECT 7.110 5.390 7.280 5.560 ;
         RECT 7.920 2.110 8.090 2.280 ;
       LAYER met1 ;
-        RECT 4.330 5.310 4.640 5.360 ;
+        RECT 0.190 5.000 4.640 5.360 ;
         RECT 7.050 5.340 7.340 5.620 ;
-        RECT 0.190 5.000 4.640 5.310 ;
         RECT 5.850 5.070 7.350 5.340 ;
         RECT 0.760 2.060 8.130 2.340 ;
         RECT 0.760 2.050 8.120 2.060 ;
   END
-END /mnt/c/Users/LENOVO/Documents/PLL/Layout/VCO
+END VCO
 END LIBRARY
 

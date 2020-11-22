@@ -64,11 +64,11 @@ Steady State <br>
 <b> Blue constantly overlapping Red indicating lock </b>
 
 Output Specs:
-Exact 40 Mhz:
-![](PreLayout/Specs/Exact40Mhz.jpg)
+40 Mhz:
+![](PostLayout/Specs/Exact40Mhz.jpg)
 
 Exact 100Mhz:
-![](PreLayout/Specs/Exact100Mhz.jpg)
+![](PostLayout/Specs/Exact100Mhz.jpg)
 
 <h4> Phase Frequency Detector 'Up' Signal : </h4>
 
@@ -180,6 +180,13 @@ Trend <br>
 Steady State <br>
 ![](PostLayout/Simulation_Results/postlay100mhz295fF.jpg)
 <b> Blue constantly overlapping Red indicating locked state </b>
+
+Output Specs:
+Exact 40 Mhz:
+![](PreLayout/Specs/Exact40Mhz.jpg)
+
+Exact 100Mhz:
+![](PreLayout/Specs/Exact100Mhz.jpg)
 
 <h4> Phase Frequency Detector 'Up' Signal : </h4>
 

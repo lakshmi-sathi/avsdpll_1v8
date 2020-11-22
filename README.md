@@ -215,9 +215,9 @@ Steady State <br>
 <h4> For using ngpice for simulations: </h4>
 
 * Get ngspice from [here](http://ngspice.sourceforge.net/) or for ubuntu users, just use this command: ```sudo apt-get install ngspice``` <br>
-* Place the [sky130nm.lib](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/sky130nm.lib) file in the folder you'll be running ngspice <br>
+* Place the [sky130nm.lib](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/sky130nm.lib) file and the Sky130_Primitives folder in the location where you'll be running ngspice <br>
 * Run the simulation: 
-    ```ngspice PLL.cir``` 
+    ```ngspice circuitname.cir``` 
 
 <h3> Future Scope: </h3> 
 

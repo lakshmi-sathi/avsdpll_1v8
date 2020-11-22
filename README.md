@@ -65,10 +65,10 @@ Steady State <br>
 
 Output Specs:
 40 Mhz:
-![](PostLayout/Specs/Exact40Mhz.jpg)
+![](PreLayout/Specs/Exact40Mhz.jpg)
 
 Exact 100Mhz:
-![](PostLayout/Specs/Exact100Mhz.jpg)
+![](PreLayout/Specs/Exact100Mhz.jpg)
 
 <h4> Phase Frequency Detector 'Up' Signal : </h4>
 
@@ -183,10 +183,10 @@ Steady State <br>
 
 Output Specs:
 Exact 40 Mhz:
-![](PreLayout/Specs/Exact40Mhz.jpg)
+![](PostLayout/Specs/PostLay40Mhz.jpg)
 
 Exact 100Mhz:
-![](PreLayout/Specs/Exact100Mhz.jpg)
+![](PostLayout/Specs/PostLayExact100Mhz.jpg)
 
 <h4> Phase Frequency Detector 'Up' Signal : </h4>
 

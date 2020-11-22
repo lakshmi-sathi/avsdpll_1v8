@@ -102,23 +102,31 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 ![](Layout/PFD_Layout.jpg)
 
-<b> Area: </b> 40.96um square
+<b> Area: </b> 49.09um square
 
 <h4> Mux </h4>
 
 ![](Layout/MUX_Layout.jpg)
 
+<b> Area: </b> 12.12um square
+
 <h4> Charge Pump </h4>
 
 ![](Layout/CP_Layout.jpg)
 
-<b> Area: </b> 54.91um square
+<b> Area: </b> 132.29um square
 
 <h4> Voltage Controlled Oscillator </h4>
 
 ![](Layout/VCO_Layout.jpg)
 
 <b> Area: </b> 57.73um square
+
+<h4> Integrated PLL </h4>
+
+![](Layout/PLL_Layout.jpg)
+
+<b> Area: </b> 496.03um square
 
 <h3> Post-Layout Simulations: </h3>
 

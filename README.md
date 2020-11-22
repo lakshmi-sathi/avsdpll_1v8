@@ -177,16 +177,16 @@ Close-up <br>
 ![](PostLayout/Simulation_Results/PostLay40Mhzzoomin.jpg)
 Steady State <br>
 ![](PostLayout/Simulation_Results/postlay40mhz295fF.jpg)
-<b> Blue constantly overlapping Red indicating locked state </b>
+<b> Blue constantly overlapping Red indicating locked state </b> <br>
 Trend <br>
 ![](PostLayout/Simulation_Results/postlay40mhz295fFfullpicture.jpg)
 
 100Mhz Output: <br>
 Close-up <br>
-![](PostLayout/Simulation_Results/PostLay100Mhzzoomin.jpg)
+![](PostLayout/Simulation_Results/Postlay100Mhzzoomin.jpg)
 Steady State <br>
 ![](PostLayout/Simulation_Results/postlay100mhz295fF.jpg)
-<b> Blue constantly overlapping Red indicating locked state </b>
+<b> Blue constantly overlapping Red indicating locked state </b> <br> 
 Trend <br>
 ![](PostLayout/Simulation_Results/postlay100mhz295fFfullpicture.jpg)
 

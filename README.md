@@ -51,6 +51,13 @@ Steady State <br>
 ![](PreLayout/Simulation_Results/12.5MhzInputSteadyState.jpg)
 <b> Blue constantly overlapping Red indicating lock </b>
 
+Output Specs:
+Exact 40 Mhz:
+![](PreLayout/Specs/Exact40Mhz.jpg)
+
+Exact 100Mhz:
+![](PreLayout/Specs/Exact100Mhz.jpg)
+
 <h4> Phase Frequency Detector 'Up' Signal : </h4>
 
 ![](PreLayout/Simulation_Results/PD_PreLay_Up.jpg)

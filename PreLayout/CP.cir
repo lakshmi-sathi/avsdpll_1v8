@@ -2,10 +2,10 @@
 
 .include sky130nm.lib
 
-xm43 3 2 1 1 sky130_fd_pr__pfet_01v8 l=150n w=24u 
+xm43 3 2 1 1 sky130_fd_pr__pfet_01v8 l=150n w=5.4u 
 xm44 out downb 3 1 sky130_fd_pr__pfet_01v8 l=150n w=420n 
 xm31 out up 7 0 sky130_fd_pr__nfet_01v8 l=150n w=420n
-xm32 7 8 0 0 sky130_fd_pr__nfet_01v8 l=150n w=24u
+xm32 7 8 0 0 sky130_fd_pr__nfet_01v8 l=150n w=5.4u
 
 xm33 2 2 1 1 sky130_fd_pr__pfet_01v8 l=150n w=420n 
 xm34 8 8 0 0 sky130_fd_pr__nfet_01v8 l=150n w=420n
@@ -22,17 +22,18 @@ xm40 0 down downb 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
 xm41 1 up upb 1 sky130_fd_pr__pfet_01v8 l=150n w=720n 
 xm42 0 up upb 0 sky130_fd_pr__nfet_01v8 l=150n w=360n 
 v1 1 0 1.8	
-v2 down 0 PULSE 0 1.8 1n 6p 6p 100ns 200ns
-v3 up 0 0
+v2 up 0 0
+*PULSE 0 1.8 1n 6p 6p 100ns 200ns
+v3 down 0 0
 
 r1 out rc 200
 c1 rc 0 64f
 c2 out 0 10f
 
-.ic v(out) = 1.8
+.ic v(out) = 0
 .ic c(out) = 0
 .control
-tran 1ns 10us
+tran 1ns 1us
 plot v(out) C(out)
 *plot v(6) V(Clk)+2
 * v(D) v(Clk) v(6)

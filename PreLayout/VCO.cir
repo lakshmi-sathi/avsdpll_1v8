@@ -32,11 +32,11 @@ xm20 11 16 0 0 sky130_fd_pr__nfet_01v8 l=150n w=540n
 
 *c1 11 0 10f
 v1 1 0 1.8
-v2 in 0 1.2   
+v2 in 0 0.6
 
 
 .control
-tran 0.1ns 1us
+tran 0.1ns 0.5us
 plot v(in) v(11)
 *setplot tran1
 *linearize v(14)

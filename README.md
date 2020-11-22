@@ -7,25 +7,25 @@ Generates 8x Multiplied Clock
 
 <b> Pre-Layout: </b> <br>
 
-Frequency Obtained for 5Mhz input:   40MHz <br>
-Frequency Obtained for 12.5Mhz input:   100MHz
+Frequency Obtained for 5Mhz input: &nbsp;&nbsp;40MHz <br>
+Frequency Obtained for 12.5Mhz input: &nbsp;&nbsp;100MHz
 
-Duty Cycle obtained:   46% at 40MHz and 40.6% at 100MHz
+Duty Cycle obtained: &nbsp;&nbsp;46% at 40MHz and 40.6% at 100MHz
 
 Lock-in starts at ~80us for 100MHz and ~120us for 40Mhz
 
-3rd-Order Loop Filter used [c1, c2, c3, r1, r2, r3]:   355fF, 350fF, 345fF, 490, 490, 490.
+3rd-Order Loop Filter used [c1, c2, c3, r1, r2, r3]: &nbsp;&nbsp;355fF, 350fF, 345fF, 490, 490, 490.
 
 <b> Post-Layout: </b> <br>
 
-Frequency Obtained for 5Mhz input:   40MHz <br>
-Frequency Obtained for 12.5Mhz input:   100MHz
+Frequency Obtained for 5Mhz input: &nbsp;&nbsp;40MHz <br>
+Frequency Obtained for 12.5Mhz input: &nbsp;&nbsp;100MHz
 
-Duty Cycle obtained:   52.7% at 40MHz and 50% at 100MHz
+Duty Cycle obtained: &nbsp;&nbsp;52.7% at 40MHz and 50% at 100MHz
 
 Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 
-3rd-Order Loop Filter used [c1, c2, c3, r1, r2, r3]:   295fF, 300fF, 305fF, 490, 490, 490.
+3rd-Order Loop Filter used [c1, c2, c3, r1, r2, r3]: &nbsp;&nbsp;295fF, 300fF, 305fF, 490, 490, 490.
 
 <h2> Contents: </h2>
 

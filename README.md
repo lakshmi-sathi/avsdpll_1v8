@@ -33,14 +33,14 @@ Duty Cycle obtained: 46% at 40Mhz and 40.6% at 100Mhz
 
 40Mhz Output: <br>
 Trend <br>
-![](PLL/Pre_Layout/5MhzInputFullPicture.jpg)
+![](Pre_Layout/Simulation_Results/5MhzInputFullPicture.jpg)
 Steady State <br>
-![](PLL/Pre_Layout/5MhzInputSteadyState.png)
+![](Pre_Layout/Simulation_Results/5MhzInputSteadyState.png)
 100Mhz Output: <br>
 Trend <br>
-![](PLL/Pre_Layout/12.5MhzInputFullPicture.jpg)
+![](Pre_Layout/Simulation_Results/12.5MhzInputFullPicture.jpg)
 Steady State <br>
-![](PLL/Pre_Layout/12.5MhzInputSteadyState.jpg)
+![](Pre_Layout/Simulation_Results/12.5MhzInputSteadyState.jpg)
 
 
 <h4> Phase Frequency Detector 'Up' Signal : </4>

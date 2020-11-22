@@ -178,7 +178,7 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 <b> Brown: </b> Up Signal <br>
 <b> Pink (at top): </b> ChargePump output <br>
 
-40Mhz Output: <br>
+<b>40Mhz Output: </b> <br>
 
 <h4>-Close-up </h4>
 
@@ -189,6 +189,7 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 <b> Blue constantly overlapping Red indicating locked state </b> <br>
 
 <h4>-Trend <br></h4>
+
 ![](PostLayout/Simulation_Results/postlay40mhz295fFfullpicture.jpg)
 
 <b>100Mhz Output:</b> <br> 
@@ -208,10 +209,10 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 
 
 <b>Output Specs:</b> <br>
--40 Mhz:
+-40 Mhz
 ![](PostLayout/Specs/PostLay40Mhz.jpg)
 
--Exact 100Mhz:
+-Exact 100Mhz
 ![](PostLayout/Specs/PostLayExact100Mhz.jpg)
 
 <h4> Phase Frequency Detector 'Up' Signal : </h4>

@@ -45,7 +45,7 @@ Steady State <br>
 
 <h4> Phase Frequency Detector 'Up' Signal : </4>
 
-![](PhaseFrequencyDetector/Pre_Layout/PD_PreLay_Up.jpg)
+![](PreLayout/Simulation_Results/PD_PreLay_Up.jpg)
 
 <b>Red:</b> Clock 2 <br>
 <b>Blue:</b> Clock 1 <br>
@@ -54,7 +54,7 @@ Steady State <br>
 
 <h4> Phase Frequency Detector 'Down' Signal : </h4>
 
-![](PhaseFrequencyDetector/Pre_Layout/PD_PreLay_Down.jpg)
+![](PreLayout/Simulation_Results/PD_PreLay_Down.jpg)
 
 <b>Red:</b> Clock 2 <br>
 <b>Blue:</b> Clock 1 <br>
@@ -63,38 +63,32 @@ Steady State <br>
 
 <h4> Charge Pump response to 'Up' signal: </h4>
 
-![](ChargePump/Pre_Layout/CP_PreLay_Charge.jpg)
+![](PreLayout/Simulation_Results/CP_PreLay_Charge.jpg)
 
 <b>Red:</b> Charge Pump Output Voltage <br>
 
 <h4> Charge Pump response to 'Down' signal: </h4>
 
-![](ChargePump/Pre_Layout/CP_PreLay_Discharge.jpg)
+![](PreLayout/Simulation_Results/CP_PreLay_Discharge.jpg)
 
 <b>Red:</b> Charge Pump Output Voltage<br>
 
 <h4> Charge Pump output rise due to charge leakage: </h4>
 
-![](ChargePump/Pre_Layout/CP_PreLay_Leakage.jpg)
+![](PreLayout/Simulation_Results/CP_PreLay_Leakage.jpg)
 
 <b>Red:</b> Charge Pump Output Voltage <br>
 <b>Leakage:</b> 40uV increase every 1us <br>
 
 <h4> Frequency Divider: </h4>
 
-![](FrequencyDivider/Pre_Layout/FD_PreLay.jpg)
+![](PreLayout/Simulation_Results/FD_PreLay.jpg)
 
 <b>Red:</b> Output Clock <br>
 <b>Blue:</b> Input Clock <br>
 
 These above circuits were custom selected to improve stability and reduce area/power consumption:
-* [Phase Frequency Detector](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/PhaseFrequencyDetector)
 
-* [Frequency Divider](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/FrequencyDivider) 
-
-* [Charge Pump](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/ChargePump)
-
-* [Voltage Controlled Oscillator](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/tree/main/Oscillator)
 
 <h3> Layout: </h3>
 

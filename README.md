@@ -5,7 +5,8 @@ Tested through spice simulations on skywater 130nm tt corner at room termperatur
 
 Generates 8x Multiplied Clock
 
-<b> Pre-Layout: </b>
+<b> Pre-Layout: </b> <br>
+
 Frequency Obtained for 5Mhz input: 40MHz
 Frequency Obtained for 12.5Mhz input: 100MHz
 
@@ -13,7 +14,8 @@ Duty Cycle obtained: 46% at 40MHz and 40.6% at 100MHz
 
 Lock-in starts at ~80us for 100MHz and ~120us for 40Mhz
 
-<b> Post-Layout: </b>
+<b> Post-Layout: </b> <br>
+
 Frequency Obtained for 5Mhz input: 40MHz
 Frequency Obtained for 12.5Mhz input: 100MHz
 

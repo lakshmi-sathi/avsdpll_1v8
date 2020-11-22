@@ -43,7 +43,7 @@ Steady State <br>
 ![](PreLayout/Simulation_Results/12.5MhzInputSteadyState.jpg)
 
 
-<h4> Phase Frequency Detector 'Up' Signal : </4>
+<h4> Phase Frequency Detector 'Up' Signal : </h4>
 
 ![](PreLayout/Simulation_Results/PD_PreLay_Up.jpg)
 
@@ -128,11 +128,13 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 <b> Area: </b> 496.03um square
 
+
+
 <h3> Post-Layout Simulations: </h3>
 
 <h4> Phase Frequency Detector 'Up' Signal : </h4>
 
-![](PhaseFrequencyDetector/Post_Layout/PFD_PostLay_Up.jpg)
+![](PostLayout/PFD_PostLay_Up.jpg)
 
 <b>Red:</b> Clock 1 <br>
 <b>Blue:</b> Clock 2 <br>
@@ -141,7 +143,7 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 <h4> Phase Frequency Detector 'Down' Signal : </h4>
 
-![](PhaseFrequencyDetector/Post_Layout/PFD_PostLay_Down.jpg)
+![](PostLayout/PFD_PostLay_Down.jpg)
 
 <b>Red:</b> Clock1 2 <br>
 <b>Blue:</b> Clock 2 <br>
@@ -150,7 +152,7 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 <h4> Charge Pump response to 'Up' signal: </h4>
 
-![](ChargePump/Post_Layout/CP_PostLayout_Charge.jpg)
+![](PostLayout/CP_PostLayout_Charge.jpg)
 
 <b>Orange:</b> Charge Pump Output Voltage <br>
 <b>Red:</b> Up Signal <br>
@@ -158,7 +160,7 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 <h4> Charge Pump response to 'Down' signal: </h4>
 
-![](ChargePump/Post_Layout/CP_PostLayout_Discharge.jpg)
+![](PostLayout/CP_PostLayout_Discharge.jpg)
 
 <b>Orange:</b> Charge Pump Output Voltage <br>
 <b>Red:</b> Up Signal <br>
@@ -166,7 +168,7 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 <h4> Charge Pump output rise due to charge leakage: </h4>
 
-![](ChargePump/Post_Layout/CP_PostLayout_Leakage.jpg)
+![](PostLayout/CP_PostLayout_Leakage.jpg)
 
 <b>Orange:</b> Charge Pump Output Voltage <br>
 <b>Red:</b> Up Signal <br>
@@ -175,7 +177,7 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 <h4> Frequency Divider: </h4>
 
-![](FrequencyDivider/Post_Layout/FD_PostLay.jpg)
+![](PostLayout/FD_PostLay.jpg)
 
 <b>Red:</b> Input Clock <br>
 <b>Blue:</b> Output Clock <br>

@@ -55,6 +55,10 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 
 <h4> 40Mhz Output: </h4>
     
+<h4>-Close-up </h4>
+
+![](PreLayout/Simulation_Results/40Mhzzoomin.jpg)
+    
 <h4>-Steady State <br></h4>
 
 ![](PreLayout/Simulation_Results/5MhzInputSteadyState.png)
@@ -65,6 +69,10 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 ![](PreLayout/Simulation_Results/5MhzInputFullPicture.jpg)
 
 <b>100Mhz Output: </b><br>
+
+<h4>-Close-up </h4>
+
+![](PreLayout/Simulation_Results/100Mhzzoomin.jpg)
 
 <h4>-Steady State <br></h4>
 

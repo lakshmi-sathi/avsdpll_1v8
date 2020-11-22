@@ -18,7 +18,7 @@ Duty Cycle obtained: 46% at 40Mhz and 40.6% at 100Mhz
 3. [Layout](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-Layout-)
 4. [Post-Layout Simulations](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-Post-Layout-Simulations-)
 5. [EDA tools used](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-EDA-tools-used-)
-6. [Instructions:](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-Instructions-)
+6. [Instructions](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-Instructions-)
 7. [Future Scope](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-Future-Scope-)
 8. [Acknowledgements](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-Acknowledgements-)
 9. [Contact](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-Contact-)
@@ -27,7 +27,7 @@ Duty Cycle obtained: 46% at 40Mhz and 40.6% at 100Mhz
 
 >This PLL circuit is built on the [Google-Skywater 130nm](https://github.com/google/skywater-pdk) node. It is a mature 180nm-130nm hybrid technology originally developed internally by Cypress Semiconductor. The SkyWater Open Source PDK is a collaboration between Google and SkyWater Technology Foundry to provide a fully open source Process Design Kit and related resources, which can be used to create manufacturable designs at SkyWater’s facility. 
 
-<h3> Pre-Layout Simulations: </h3>
+<h3> Pre-Layout Simulations </h3>
 
 <h4> PLL Output (tt, 27degree Celcius): </h4>
 
@@ -90,7 +90,7 @@ Steady State <br>
 These above circuits were custom selected to improve stability and reduce area/power consumption.
 
 
-<h3> Layout: </h3>
+<h3> Layout </h3>
 
 <h4> Frequency Divider </h4>
 
@@ -130,7 +130,7 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 
 
-<h3> Post-Layout Simulations: </h3>
+<h3> Post-Layout Simulations </h3>
 
 <h4> PLL Output (tt, 27degree Celcius): </h4>
 
@@ -197,13 +197,13 @@ Steady State <br>
 <b>Blue:</b> Output Clock <br>
 
 
-<h3> EDA Tools Used: </h3>
+<h3> EDA Tools Used </h3>
 
 * [kicad](https://kicad.org/) (schematic capture) <br>
 * [ngspice](http://ngspice.sourceforge.net/download.html) (simulation) <br>
 * [magic](http://opencircuitdesign.com/magic/) (layout design) 
 
-<h3> Instructions: </h3>
+<h3> Instructions </h3>
 
 <h4> For using magic for layout: </h4>
 
@@ -219,16 +219,16 @@ Steady State <br>
 * Run the simulation: 
     ```ngspice circuitname.cir``` 
 
-<h3> Future Scope: </h3> 
+<h3> Future Scope </h3> 
 
 * Incorporation of Trimmer Codes.
 * Incorporation of PVT compensation circuit.
 
-<h3> Acknowledgements: </h3>
+<h3> Acknowledgements </h3>
 
 * I thank Mr. Kunal Ghosh co-founder VSD, for providing me the opportunity to  work on this wonderful project
 
-<h3> Contact: </h3>
+<h3> Contact </h3>
 
 * Lakshmi S (Author), MS ECE, Georgia Institute of Technology - lakshmi.sathi96@gmail.com
 * Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com

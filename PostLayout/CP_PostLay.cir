@@ -1,0 +1,215 @@
+* SPICE3 file created from CP.ext - technology: sky130A
+.include sky130nm.lib
+.option scale=0.01u
+
+
+XM1000 a_86_73# a_125_486# a_248_475# VDD sky130_fd_pr__pfet_01v8 w=1800 l=15
++  ad=32350.2 pd=2065.07 as=47294.2 ps=2895.72
+XM1001 GND a_340_202# a_462_191# GND sky130_fd_pr__nfet_01v8 w=480 l=15
++  ad=15785.8 pd=1205.27 as=10416.3 ps=592.994
+XM1002 a_86_73# a_125_486# a_125_486# VDD sky130_fd_pr__pfet_01v8 w=44 l=15
++  ad=790.782 pd=50.4794 as=1452 ps=154
+XM1003 a_248_475# a_134_73# Out VDD sky130_fd_pr__pfet_01v8 w=42 l=15
++  ad=1103.53 pd=67.5667 as=1386 ps=150
+XM1004 a_134_73# Down GND GND sky130_fd_pr__nfet_01v8 w=36 l=15
++  ad=1188 pd=138 as=1183.94 ps=90.395
+XM1005 a_248_475# Down a_248_427# VDD sky130_fd_pr__pfet_01v8 w=540 l=15
++  ad=14188.3 pd=868.715 as=17820 ps=1146
+XM1006 a_258_74# Up GND GND sky130_fd_pr__nfet_01v8 w=36 l=15
++  ad=1188 pd=138 as=1183.94 ps=90.395
+XM1007 GND a_340_202# a_340_202# GND sky130_fd_pr__nfet_01v8 w=44 l=15
++  ad=1447.03 pd=110.483 as=1452 ps=154
+XM1008 a_462_143# a_462_143# a_86_73# VDD sky130_fd_pr__pfet_01v8 w=42 l=15
++  ad=1386 pd=150 as=754.838 ps=48.1849
+XM1009 Out Up a_462_191# GND sky130_fd_pr__nfet_01v8 w=42 l=15
++  ad=1386 pd=150 as=911.424 ps=51.887
+XM1010 a_248_427# a_248_427# GND GND sky130_fd_pr__nfet_01v8 w=42 l=15
++  ad=1386 pd=150 as=1381.26 ps=105.461
+XM1011 VDD ENb a_86_73# VDD sky130_fd_pr__pfet_01v8 w=1800 l=15
++  ad=50400 pd=3656 as=32350.2 ps=2065.07
+XM1012 a_462_191# a_258_74# a_462_143# GND sky130_fd_pr__nfet_01v8 w=540 l=15
++  ad=11718.3 pd=667.119 as=17820 ps=1146
+XM1013 a_258_74# Up a_86_73# VDD sky130_fd_pr__pfet_01v8 w=72 l=15
++  ad=2376 pd=210 as=1294.01 ps=82.6026
+XM1014 a_134_73# Down a_86_73# VDD sky130_fd_pr__pfet_01v8 w=72 l=15
++  ad=2376 pd=210 as=1294.01 ps=82.6026
+C0 a_258_74# a_86_73# 0.15fF
+C1 a_86_73# a_462_191# 0.01fF
+C2 a_86_73# a_462_143# 0.16fF
+C3 a_248_475# a_248_427# 0.58fF
+C4 a_86_73# Up 1.58fF
+C5 Out a_462_191# 0.04fF
+C6 a_258_74# a_462_191# 0.00fF
+C7 Out a_462_143# 0.02fF
+C8 a_258_74# a_462_143# 0.02fF
+C9 a_462_143# a_462_191# 0.72fF
+C10 Out Up 0.03fF
+C11 a_258_74# Up 0.08fF
+C12 a_86_73# a_134_73# 0.21fF
+C13 Up a_462_191# 0.09fF
+C14 ENb Down 0.01fF
+C15 a_86_73# Down 0.06fF
+C16 ENb VDD 0.16fF
+C17 a_86_73# VDD 5.67fF
+C18 a_462_143# Up 0.08fF
+C19 a_258_74# a_340_202# 0.13fF
+C20 a_340_202# a_462_191# 0.01fF
+C21 Out a_134_73# 0.05fF
+C22 a_248_475# ENb 0.00fF
+C23 a_258_74# a_134_73# 0.05fF
+C24 a_248_475# a_86_73# 2.08fF
+C25 a_125_486# Down 0.02fF
+C26 a_86_73# a_248_427# 0.25fF
+C27 a_258_74# Down 0.00fF
+C28 a_125_486# VDD 0.05fF
+C29 Out VDD 1.46fF
+C30 a_258_74# VDD 0.08fF
+C31 a_340_202# Up 0.02fF
+C32 VDD a_462_191# 0.13fF
+C33 a_462_143# VDD 0.20fF
+C34 a_134_73# Up 0.41fF
+C35 Down Up 0.14fF
+C36 a_248_475# a_125_486# 0.02fF
+C37 VDD Up 0.08fF
+C38 a_248_475# Out 0.40fF
+C39 Out a_248_427# 0.00fF
+C40 a_258_74# a_248_427# 0.00fF
+C41 a_248_427# a_462_191# 0.02fF
+C42 a_462_143# a_248_427# 0.01fF
+C43 a_340_202# a_134_73# 0.00fF
+C44 a_340_202# VDD 0.02fF
+C45 a_134_73# Down 0.12fF
+C46 a_134_73# VDD 0.04fF
+C47 Down VDD 0.04fF
+C48 a_248_475# a_134_73# 0.02fF
+C49 a_134_73# a_248_427# 0.09fF
+C50 a_248_427# Down 0.00fF
+C51 a_248_475# VDD 1.36fF
+C52 a_248_427# VDD 0.17fF
+C53 a_125_486# ENb 0.10fF
+C54 a_86_73# a_125_486# 0.06fF
+C55 Out a_86_73# 0.33fF
+C56 Up GND 0.07fF
+C57 Out GND 2.98fF
+C58 VDD GND 0.32fF
+C59 a_462_143# GND 0.55fF
+C60 a_462_191# GND 0.58fF
+C61 a_340_202# GND 0.31fF
+C62 a_258_74# GND 0.51fF
+C63 a_134_73# GND 2.42fF
+C64 a_248_427# GND 0.69fF
+C65 a_248_475# GND 0.49fF
+C66 a_125_486# GND 0.24fF
+C67 a_86_73# GND 1.79fF
+
+*XM1000 a_174_531# a_127_486# a_248_475# VDD sky130_fd_pr__pfet_01v8 w=1800 l=15
+*+  ad=59400 pd=3728.85 as=47294.2 ps=2895.72
+*XM1001 GND a_340_202# a_462_191# GND sky130_fd_pr__nfet_01v8 w=480 l=15
+*+  ad=15785.8 pd=1205.27 as=10416.3 ps=592.994
+*XM1002 a_248_475# a_134_73# Out VDD sky130_fd_pr__pfet_01v8 w=42 l=15
+*+  ad=1103.53 pd=67.5667 as=1386 ps=150
+*XM1003 a_134_73# Down GND GND sky130_fd_pr__nfet_01v8 w=36 l=15
+*+  ad=1188 pd=138 as=1183.94 ps=90.395
+*XM1004 VDD ENb a_31_494# VDD sky130_fd_pr__pfet_01v8 w=60 l=15
+*+  ad=2023.9 pd=185.854 as=2340 ps=198
+*XM1005 a_248_475# Down a_248_427# VDD sky130_fd_pr__pfet_01v8 w=540 l=15
+*+  ad=14188.3 pd=868.715 as=17820 ps=1146
+*XM1006 a_258_74# Up GND GND sky130_fd_pr__nfet_01v8 w=36 l=15
+*+  ad=1188 pd=138 as=1183.94 ps=90.395
+*XM1007 GND a_340_202# a_340_202# GND sky130_fd_pr__nfet_01v8 w=44 l=15
+*+  ad=1447.03 pd=110.483 as=1452 ps=154
+*XM1008 a_462_143# a_462_143# VDD VDD sky130_fd_pr__pfet_01v8 w=42 l=15
+*+  ad=1386 pd=150 as=1416.73 ps=130.098
+*XM1009 a_174_531# a_127_486# a_127_486# VDD sky130_fd_pr__pfet_01v8 w=44 l=15
+*+  ad=1452 pd=91.1497 as=1452 ps=154
+*XM1010 Out Up a_462_191# GND sky130_fd_pr__nfet_01v8 w=42 l=15
+*+  ad=1386 pd=150 as=911.424 ps=51.887
+*XM1011 a_248_427# a_248_427# GND GND sky130_fd_pr__nfet_01v8 w=42 l=15
+*+  ad=1386 pd=150 as=1381.26 ps=105.461
+*XM1012 a_462_191# a_258_74# a_462_143# GND sky130_fd_pr__nfet_01v8 w=540 l=15
+*+  ad=11718.3 pd=667.119 as=17820 ps=1146
+*XM1013 a_258_74# Up VDD VDD sky130_fd_pr__pfet_01v8 w=72 l=15
+*+  ad=2376 pd=210 as=2428.68 ps=223.024
+*XM1014 a_134_73# Down VDD VDD sky130_fd_pr__pfet_01v8 w=72 l=15
+*+  ad=2376 pd=210 as=2428.68 ps=223.024
+*C0 a_258_74# VDD 0.18fF
+*C1 VDD Up 0.21fF
+*C2 a_248_427# Out 0.00fF
+*C3 a_258_74# Up 0.09fF
+*C4 a_462_191# a_340_202# 0.01fF
+*C5 a_134_73# Down 0.12fF
+*C6 Down ENb 0.00fF
+*C7 a_462_191# a_462_143# 0.72fF
+*C8 a_134_73# VDD 0.16fF
+*C9 a_248_475# a_248_427# 0.58fF
+*C10 VDD ENb 0.01fF
+*C11 a_174_531# a_248_427# 0.25fF
+*C12 a_134_73# a_258_74# 0.05fF
+*C13 a_134_73# Up 0.41fF
+*C14 VDD Out 1.29fF
+*C15 a_462_191# a_248_427# 0.02fF
+*C16 a_127_486# Down 0.03fF
+*C17 a_462_143# a_248_427# 0.01fF
+*C18 Out Up 0.03fF
+*C19 a_127_486# VDD 0.05fF
+*C20 a_174_531# Down 0.02fF
+*C21 a_248_475# VDD 1.18fF
+*C22 a_174_531# VDD 2.61fF
+*C23 a_340_202# VDD 0.02fF
+*C24 a_340_202# a_258_74# 0.13fF
+*C25 a_340_202# Up 0.02fF
+*C26 a_462_191# VDD 0.13fF
+*C27 a_134_73# Out 0.05fF
+*C28 a_174_531# a_31_494# 0.12fF
+*C29 a_462_143# VDD 0.23fF
+*C30 a_462_191# a_258_74# 0.00fF
+*C31 a_462_191# Up 0.09fF
+*C32 a_258_74# a_462_143# 0.02fF
+*C33 a_462_143# Up 0.08fF
+*C34 a_127_486# ENb 0.01fF
+*C35 a_248_427# Down 0.00fF
+*C36 a_134_73# a_248_475# 0.02fF
+*C37 a_248_427# VDD 0.14fF
+*C38 a_134_73# a_174_531# 0.01fF
+*C39 a_134_73# a_340_202# 0.00fF
+*C40 a_174_531# ENb 0.01fF
+*C41 a_258_74# a_248_427# 0.00fF
+*C42 a_248_475# Out 0.40fF
+*C43 a_174_531# Out 0.24fF
+*C44 a_127_486# a_248_475# 0.02fF
+*C45 a_462_191# Out 0.04fF
+*C46 a_127_486# a_174_531# 0.13fF
+*C47 Down VDD 0.05fF
+*C48 a_462_143# Out 0.02fF
+*C49 a_134_73# a_248_427# 0.09fF
+*C50 a_258_74# Down 0.00fF
+*C51 Down Up 0.15fF
+*C52 a_174_531# a_248_475# 2.05fF
+*C53 Up GND 1.42fF
+*C54 Out GND 2.98fF
+*C55 VDD GND 0.08fF
+*C56 a_462_143# GND 0.58fF
+*C57 a_462_191# GND 0.58fF
+*C58 a_340_202# GND 0.31fF
+*C59 a_258_74# GND 0.51fF
+*C60 a_134_73# GND 2.42fF
+*C61 a_248_427# GND 0.69fF
+*C62 a_248_475# GND 0.49fF
+*C63 a_127_486# GND 0.24fF
+*C64 a_174_531# GND 1.49fF
+
+
+
+
+c90 Out GND 6fF
+v1 VDD GND 1.8
+v2 Up GND PULSE 0 1.8 4ns 6p 6p 100n 200n
+v3 Down GND 0 
+v4 ENb GND 0
+
+.ic v(Out) = 0
+.control
+tran 1n 5u
+plot v(Up) v(Down) v(Out)+2
+.endc
+

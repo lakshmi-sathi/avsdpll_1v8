@@ -1,0 +1,45 @@
+* SPICE3 file created from MUX.ext - technology: sky130A
+.include sky130nm.lib
+.option scale=0.01u
+
+XM1000 Out a_80_62# A GND sky130_fd_pr__nfet_01v8 w=36 l=15
++  ad=1044 pd=130 as=1044 ps=130
+XM1001 Out a_80_62# B VDD sky130_fd_pr__pfet_01v8 w=72 l=15
++  ad=2088 pd=202 as=2088 ps=202
+XM1002 Out SEL B GND sky130_fd_pr__nfet_01v8 w=36 l=15
++  ad=1044 pd=130 as=1044 ps=130
+XM1003 Out SEL A VDD sky130_fd_pr__pfet_01v8 w=72 l=15
++  ad=2088 pd=202 as=2088 ps=202
+XM1004 a_80_62# SEL VDD VDD sky130_fd_pr__pfet_01v8 w=72 l=15
++  ad=2088 pd=202 as=2088 ps=202
+XM1005 a_80_62# SEL GND GND sky130_fd_pr__nfet_01v8 w=36 l=15
++  ad=1044 pd=130 as=1044 ps=130
+C0 Out A 0.53fF
+C1 a_80_62# Out 0.53fF
+C2 SEL B 0.15fF
+C3 Out VDD 0.02fF
+C4 A B 0.24fF
+C5 a_80_62# B 0.28fF
+C6 A SEL 0.18fF
+C7 a_80_62# SEL 0.29fF
+C8 VDD B 0.03fF
+C9 VDD SEL 0.00fF
+C10 a_80_62# A 0.50fF
+C11 Out B 0.28fF
+C12 Out SEL 0.12fF
+C13 VDD A 0.07fF
+C14 a_80_62# VDD 0.18fF
+C15 Out GND 0.42fF
+C16 SEL GND 0.88fF
+C17 VDD GND 0.59fF
+C18 a_80_62# GND 0.78fF
+
+V1 VDD GND 1.8
+V2 A 0 PULSE 0 1.8 0 6p 6p 5ns 10ns
+V3 B 0 PULSE 0 1.8 0 6p 6p 10ns 20ns
+V$ SEL 0 PULSE 0 1.8 0 6p 6p 20ns 40ns
+
+.control
+tran 0.1n 1u
+plot v(A)+6 v(B)+4 v(SEL)+2 v(Out)
+.endc

@@ -94,25 +94,29 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 <h4> Frequency Divider </h4>
 
-![](FrequencyDivider/Post_Layout/FD_Layout.jpg)
+![](Layout/FD_Layout.jpg)
 
 <b> Area: </b> 29.92um square
 
 <h4> Phase Frequency Detector </h4>
 
-![](PhaseFrequencyDetector/Post_Layout/PFD_Layout.jpg)
+![](Layout/PFD_Layout.jpg)
 
 <b> Area: </b> 40.96um square
 
+<h4> Mux </h4>
+
+![](Layout/MUX_Layout.jpg)
+
 <h4> Charge Pump </h4>
 
-![](ChargePump/Post_Layout/CP_Layout.jpg)
+![](Layout/CP_Layout.jpg)
 
 <b> Area: </b> 54.91um square
 
 <h4> Voltage Controlled Oscillator </h4>
 
-![](Oscillator/Post_Layout/VCO_Layout.jpg)
+![](Layout/VCO_Layout.jpg)
 
 <b> Area: </b> 57.73um square
 

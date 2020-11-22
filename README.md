@@ -55,6 +55,7 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 
 40Mhz Output: <br>
 <h4>Trend <br> </h4>
+
 ![](PreLayout/Simulation_Results/5MhzInputFullPicture.jpg)
 Steady State <br>
 ![](PreLayout/Simulation_Results/5MhzInputSteadyState.png)

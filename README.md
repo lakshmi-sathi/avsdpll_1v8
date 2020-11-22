@@ -95,7 +95,7 @@ Steady State <br>
 <b>Red:</b> Output Clock <br>
 <b>Blue:</b> Input Clock <br>
 
-These above circuits were custom selected to improve stability and reduce area/power consumption.
+*These above circuits were custom selected to improve stability and reduce area/power consumption.
 
 
 <h3> Layout </h3>

@@ -142,17 +142,25 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 <h4> PLL Output (tt, 27degree Celcius): </h4>
 
+<b> Red: </b> Reference Clock  <br>
+<b> Blue: </b> Output Clock Divided by 8  <br>
+<b> Yellow: </b> Down Signal <br>
+<b> Brown: </b> Up Signal <br>
+<b> Pink (at top): </b> ChargePump output <br>
+
 40Mhz Output: <br>
 Trend <br>
 ![](PostLayout/Simulation_Results/postlay40mhz295fFfullpicture.jpg)
 Steady State <br>
 ![](PostLayout/Simulation_Results/postlay40mhz295fF.jpg)
+<b> Blue constantly overlapping Red indicating locked state </b>
 
 100Mhz Output: <br>
 Trend <br>
 ![](PostLayout/Simulation_Results/postlay100mhz295fFfullpicture.jpg)
 Steady State <br>
 ![](PostLayout/Simulation_Results/postlay100mhz295fF.jpg)
+<b> Blue constantly overlapping Red indicating locked state </b>
 
 <h4> Phase Frequency Detector 'Up' Signal : </h4>
 

@@ -132,9 +132,23 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 <h3> Post-Layout Simulations: </h3>
 
+<h4> PLL Output (tt, 27degree Celcius): </h4>
+
+40Mhz Output: <br>
+Trend <br>
+![](PostLayout/Simulation_Results/postlay40mhz295fFfullpicture.jpg)
+Steady State <br>
+![](PostLayout/Simulation_Results/postlay40mhz295fF.jpg)
+
+100Mhz Output: <br>
+Trend <br>
+![](PostLayout/Simulation_Results/postlay100mhz295fFfullpicture.jpg)
+Steady State <br>
+![](PostLayout/Simulation_Results/postlay100mhz295fF.jpg)
+
 <h4> Phase Frequency Detector 'Up' Signal : </h4>
 
-![](PostLayout/PFD_PostLay_Up.jpg)
+![](PostLayout/Simulation_Results/PFD_PostLay_Up.jpg)
 
 <b>Red:</b> Clock 1 <br>
 <b>Blue:</b> Clock 2 <br>
@@ -143,7 +157,7 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 <h4> Phase Frequency Detector 'Down' Signal : </h4>
 
-![](PostLayout/PFD_PostLay_Down.jpg)
+![](PostLayout/Simulation_Results/PFD_PostLay_Down.jpg)
 
 <b>Red:</b> Clock1 2 <br>
 <b>Blue:</b> Clock 2 <br>
@@ -152,7 +166,7 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 <h4> Charge Pump response to 'Up' signal: </h4>
 
-![](PostLayout/CP_PostLayout_Charge.jpg)
+![](PostLayout/Simulation_Results/CP_PostLayout_Charge.jpg)
 
 <b>Orange:</b> Charge Pump Output Voltage <br>
 <b>Red:</b> Up Signal <br>
@@ -160,7 +174,7 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 <h4> Charge Pump response to 'Down' signal: </h4>
 
-![](PostLayout/CP_PostLayout_Discharge.jpg)
+![](PostLayout/Simulation_Results/CP_PostLayout_Discharge.jpg)
 
 <b>Orange:</b> Charge Pump Output Voltage <br>
 <b>Red:</b> Up Signal <br>
@@ -168,7 +182,7 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 <h4> Charge Pump output rise due to charge leakage: </h4>
 
-![](PostLayout/CP_PostLayout_Leakage.jpg)
+![](PostLayout/Simulation_Results/CP_PostLayout_Leakage.jpg)
 
 <b>Orange:</b> Charge Pump Output Voltage <br>
 <b>Red:</b> Up Signal <br>
@@ -177,7 +191,7 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 <h4> Frequency Divider: </h4>
 
-![](PostLayout/FD_PostLay.jpg)
+![](PostLayout/Simulation_Results/FD_PostLay.jpg)
 
 <b>Red:</b> Input Clock <br>
 <b>Blue:</b> Output Clock <br>

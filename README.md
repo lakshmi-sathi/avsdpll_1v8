@@ -75,10 +75,10 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 <b> Blue constantly overlapping Red indicating lock </b>
 
 <b>Output Specs:</b> <br>
--Exact 40 Mhz:
+-Exact 40 Mhz
 ![](PreLayout/Specs/Exact40Mhz.jpg)
 
--Exact 100Mhz:
+-Exact 100Mhz
 ![](PreLayout/Specs/Exact100Mhz.jpg)
 
 <h4> Phase Frequency Detector 'Up' Signal : </h4>

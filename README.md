@@ -172,18 +172,26 @@ Exact 100Mhz:
 <b> Pink (at top): </b> ChargePump output <br>
 
 40Mhz Output: <br>
-Trend <br>
-![](PostLayout/Simulation_Results/postlay40mhz295fFfullpicture.jpg)
+
+Close-up <br>
+![](PostLayout/Simulation_Results/PostLay40Mhzzoomin.jpg)
 Steady State <br>
 ![](PostLayout/Simulation_Results/postlay40mhz295fF.jpg)
 <b> Blue constantly overlapping Red indicating locked state </b>
+Trend <br>
+![](PostLayout/Simulation_Results/postlay40mhz295fFfullpicture.jpg)
 
 100Mhz Output: <br>
-Trend <br>
-![](PostLayout/Simulation_Results/postlay100mhz295fFfullpicture.jpg)
+Close-up <br>
+![](PostLayout/Simulation_Results/PostLay100Mhzzoomin.jpg)
 Steady State <br>
 ![](PostLayout/Simulation_Results/postlay100mhz295fF.jpg)
 <b> Blue constantly overlapping Red indicating locked state </b>
+Trend <br>
+![](PostLayout/Simulation_Results/postlay100mhz295fFfullpicture.jpg)
+
+
+
 
 <b>Output Specs:</b> <br>
 40 Mhz:

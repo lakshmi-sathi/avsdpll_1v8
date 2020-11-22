@@ -33,11 +33,11 @@ Duty Cycle obtained: 46% at 40Mhz and 40.6% at 100Mhz
 
 40Mhz Output: <br>
 
-<b> Red: <b> Reference Clock
-<b> Blue: <b> Output Clock Divided by 8 
-<b> Yellow: <b> Down Signal 
-<b> Brown: <b> Up Signal
-<b> Pink (at top): <b> ChargePump output
+<b> Red: </b> Reference Clock  <br>
+<b> Blue: </b> Output Clock Divided by 8  <br>
+<b> Yellow: </b> Down Signal <br>
+<b> Brown: </b> Up Signal <br>
+<b> Pink (at top): </b> ChargePump output <br>
  
 Trend <br>
 ![](PreLayout/Simulation_Results/5MhzInputFullPicture.jpg)

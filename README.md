@@ -42,14 +42,14 @@ Trend <br>
 ![](PreLayout/Simulation_Results/5MhzInputFullPicture.jpg)
 Steady State <br>
 ![](PreLayout/Simulation_Results/5MhzInputSteadyState.png)
-->Blue constantly overlapping Red indicating lock
+<b> Blue constantly overlapping Red indicating locked state </b>
 
 100Mhz Output: <br>
 Trend <br>
 ![](PreLayout/Simulation_Results/12.5MhzInputFullPicture.jpg)
 Steady State <br>
 ![](PreLayout/Simulation_Results/12.5MhzInputSteadyState.jpg)
-->Blue constantly overlapping Red indicating lock
+<b> Blue constantly overlapping Red indicating lock </b>
 
 <h4> Phase Frequency Detector 'Up' Signal : </h4>
 

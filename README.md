@@ -53,25 +53,33 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 <b> Brown: </b> Up Signal <br>
 <b> Pink (at top): </b> ChargePump output <br>
 
-40Mhz Output: <br>
-Trend <br>
-![](PreLayout/Simulation_Results/5MhzInputFullPicture.jpg)
-Steady State <br>
+<h4> 40Mhz Output: </h4>
+    
+<h4>-Steady State <br></h4>
+
 ![](PreLayout/Simulation_Results/5MhzInputSteadyState.png)
 <b> Blue constantly overlapping Red indicating locked state </b>
 
-100Mhz Output: <br>
-Trend <br>
-![](PreLayout/Simulation_Results/12.5MhzInputFullPicture.jpg)
-Steady State <br>
+<h4>-Trend <br> </h4>
+
+![](PreLayout/Simulation_Results/5MhzInputFullPicture.jpg)
+
+<b>100Mhz Output: </b><br>
+
+<h4>-Steady State <br></h4>
+
 ![](PreLayout/Simulation_Results/12.5MhzInputSteadyState.jpg)
 <b> Blue constantly overlapping Red indicating lock </b>
 
+<h4>-Trend <br></h4>
+
+![](PreLayout/Simulation_Results/12.5MhzInputFullPicture.jpg)
+
 <b>Output Specs:</b> <br>
-Exact 40 Mhz:
+-Exact 40 Mhz
 ![](PreLayout/Specs/Exact40Mhz.jpg)
 
-Exact 100Mhz:
+-Exact 100Mhz
 ![](PreLayout/Specs/Exact100Mhz.jpg)
 
 <h4> Phase Frequency Detector 'Up' Signal : </h4>
@@ -171,25 +179,41 @@ Exact 100Mhz:
 <b> Brown: </b> Up Signal <br>
 <b> Pink (at top): </b> ChargePump output <br>
 
-40Mhz Output: <br>
-Trend <br>
-![](PostLayout/Simulation_Results/postlay40mhz295fFfullpicture.jpg)
-Steady State <br>
-![](PostLayout/Simulation_Results/postlay40mhz295fF.jpg)
-<b> Blue constantly overlapping Red indicating locked state </b>
+<b>40Mhz Output: </b> <br>
 
-100Mhz Output: <br>
-Trend <br>
-![](PostLayout/Simulation_Results/postlay100mhz295fFfullpicture.jpg)
-Steady State <br>
+<h4>-Close-up </h4>
+
+![](PostLayout/Simulation_Results/PostLay40Mhzzoomin.jpg)
+<h4>-Steady State </h4>
+
+![](PostLayout/Simulation_Results/postlay40mhz295fF.jpg)
+<b> Blue constantly overlapping Red indicating locked state </b> <br>
+
+<h4>-Trend <br></h4>
+
+![](PostLayout/Simulation_Results/postlay40mhz295fFfullpicture.jpg)
+
+<b>100Mhz Output:</b> <br> 
+<h4>-Close-up <br></h4>
+
+![](PostLayout/Simulation_Results/Postlay100Mhzzoomin.jpg)
+
+<h4>-Steady State <br></h4>
+
 ![](PostLayout/Simulation_Results/postlay100mhz295fF.jpg)
-<b> Blue constantly overlapping Red indicating locked state </b>
+<b> Blue constantly overlapping Red indicating locked state </b> <br> 
+<h4>-Trend</h4>
+
+![](PostLayout/Simulation_Results/postlay100mhz295fFfullpicture.jpg)
+
+
+
 
 <b>Output Specs:</b> <br>
-40 Mhz:
+-40 Mhz
 ![](PostLayout/Specs/PostLay40Mhz.jpg)
 
-Exact 100Mhz:
+-Exact 100Mhz
 ![](PostLayout/Specs/PostLayExact100Mhz.jpg)
 
 <h4> Phase Frequency Detector 'Up' Signal : </h4>

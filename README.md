@@ -63,8 +63,8 @@ Steady State <br>
 ![](PreLayout/Simulation_Results/12.5MhzInputSteadyState.jpg)
 <b> Blue constantly overlapping Red indicating lock </b>
 
-Output Specs:
-40 Mhz:
+<b>Output Specs:</b> <br>
+Exact 40 Mhz:
 ![](PreLayout/Specs/Exact40Mhz.jpg)
 
 Exact 100Mhz:
@@ -181,8 +181,8 @@ Steady State <br>
 ![](PostLayout/Simulation_Results/postlay100mhz295fF.jpg)
 <b> Blue constantly overlapping Red indicating locked state </b>
 
-Output Specs:
-Exact 40 Mhz:
+<b>Output Specs:</b> <br>
+40 Mhz:
 ![](PostLayout/Specs/PostLay40Mhz.jpg)
 
 Exact 100Mhz:

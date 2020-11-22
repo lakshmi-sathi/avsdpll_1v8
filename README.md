@@ -53,7 +53,8 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 <b> Brown: </b> Up Signal <br>
 <b> Pink (at top): </b> ChargePump output <br>
 
-40Mhz Output: <br>
+<h4> 40Mhz Output: </h4>
+    
 <h4>Trend <br> </h4>
 
 ![](PreLayout/Simulation_Results/5MhzInputFullPicture.jpg)

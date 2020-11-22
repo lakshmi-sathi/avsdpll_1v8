@@ -31,17 +31,32 @@ Duty Cycle obtained: 46% at 40Mhz and 40.6% at 100Mhz
 
 <h4> PLL Output (tt, 27degree Celcius): </h4>
 
+<b> Red: </b> Reference Clock  <br>
+<b> Blue: </b> Output Clock Divided by 8  <br>
+<b> Yellow: </b> Down Signal <br>
+<b> Brown: </b> Up Signal <br>
+<b> Pink (at top): </b> ChargePump output <br>
+
 40Mhz Output: <br>
 Trend <br>
 ![](PreLayout/Simulation_Results/5MhzInputFullPicture.jpg)
 Steady State <br>
 ![](PreLayout/Simulation_Results/5MhzInputSteadyState.png)
+<b> Blue constantly overlapping Red indicating locked state </b>
+
 100Mhz Output: <br>
 Trend <br>
 ![](PreLayout/Simulation_Results/12.5MhzInputFullPicture.jpg)
 Steady State <br>
 ![](PreLayout/Simulation_Results/12.5MhzInputSteadyState.jpg)
+<b> Blue constantly overlapping Red indicating lock </b>
 
+Output Specs:
+Exact 40 Mhz:
+![](PreLayout/Specs/Exact40Mhz.jpg)
+
+Exact 100Mhz:
+![](PreLayout/Specs/Exact100Mhz.jpg)
 
 <h4> Phase Frequency Detector 'Up' Signal : </h4>
 
@@ -87,7 +102,7 @@ Steady State <br>
 <b>Red:</b> Output Clock <br>
 <b>Blue:</b> Input Clock <br>
 
-These above circuits were custom selected to improve stability and reduce area/power consumption.
+*These above circuits were custom selected to improve stability and reduce area/power consumption.
 
 
 <h3> Layout </h3>
@@ -134,17 +149,25 @@ These above circuits were custom selected to improve stability and reduce area/p
 
 <h4> PLL Output (tt, 27degree Celcius): </h4>
 
+<b> Red: </b> Reference Clock  <br>
+<b> Blue: </b> Output Clock Divided by 8  <br>
+<b> Yellow: </b> Down Signal <br>
+<b> Brown: </b> Up Signal <br>
+<b> Pink (at top): </b> ChargePump output <br>
+
 40Mhz Output: <br>
 Trend <br>
 ![](PostLayout/Simulation_Results/postlay40mhz295fFfullpicture.jpg)
 Steady State <br>
 ![](PostLayout/Simulation_Results/postlay40mhz295fF.jpg)
+<b> Blue constantly overlapping Red indicating locked state </b>
 
 100Mhz Output: <br>
 Trend <br>
 ![](PostLayout/Simulation_Results/postlay100mhz295fFfullpicture.jpg)
 Steady State <br>
 ![](PostLayout/Simulation_Results/postlay100mhz295fF.jpg)
+<b> Blue constantly overlapping Red indicating locked state </b>
 
 <h4> Phase Frequency Detector 'Up' Signal : </h4>
 

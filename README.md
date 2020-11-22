@@ -31,26 +31,25 @@ Duty Cycle obtained: 46% at 40Mhz and 40.6% at 100Mhz
 
 <h4> PLL Output (tt, 27degree Celcius): </h4>
 
-40Mhz Output: <br>
-
 <b> Red: </b> Reference Clock  <br>
 <b> Blue: </b> Output Clock Divided by 8  <br>
 <b> Yellow: </b> Down Signal <br>
 <b> Brown: </b> Up Signal <br>
 <b> Pink (at top): </b> ChargePump output <br>
- 
+
+40Mhz Output: <br>
 Trend <br>
 ![](PreLayout/Simulation_Results/5MhzInputFullPicture.jpg)
 Steady State <br>
 ![](PreLayout/Simulation_Results/5MhzInputSteadyState.png)
-Blue constantly overlapping Red indicating lock
+->Blue constantly overlapping Red indicating lock
 
 100Mhz Output: <br>
 Trend <br>
 ![](PreLayout/Simulation_Results/12.5MhzInputFullPicture.jpg)
 Steady State <br>
 ![](PreLayout/Simulation_Results/12.5MhzInputSteadyState.jpg)
-Blue constantly overlapping Red indicating lock
+->Blue constantly overlapping Red indicating lock
 
 <h4> Phase Frequency Detector 'Up' Signal : </h4>
 

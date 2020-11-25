@@ -45,9 +45,8 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 
 <h4> Specifications </h4>
 
-| avsdpll |
-| --- |
 | Parameter | Description | min | typ | max | Unit | Condition |
+| --- | --- | --- | --- | --- | --- | --- |
 
 
 <h3> Pre-Layout Simulations </h3>

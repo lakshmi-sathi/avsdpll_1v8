@@ -43,6 +43,12 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 
 >This PLL circuit is built on the [Google-Skywater 130nm](https://github.com/google/skywater-pdk) node. It is a mature 180nm-130nm hybrid technology originally developed internally by Cypress Semiconductor. The SkyWater Open Source PDK is a collaboration between Google and SkyWater Technology Foundry to provide a fully open source Process Design Kit and related resources, which can be used to create manufacturable designs at SkyWater’s facility. 
 
+<h4> Specifications </h4>:
+|    avsdpll   |
+|   ------     |
+| Parameter | Description | min | typ | max | Unit | Condition |
+
+
 <h3> Pre-Layout Simulations </h3>
 
 <h4> PLL Output (tt, 27degree Celcius): </h4>

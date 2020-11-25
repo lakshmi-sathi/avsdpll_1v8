@@ -47,9 +47,12 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 
 | Parameter | Description | min | typ | max | Unit | Condition |
 | --- | --- | --- | --- | --- | --- | --- |
-| VDD | Digital Supply | - | 1.8 | - | V | T = -40C to 150C |
+| VDD | Digital Supply | - | 1.8 | - | V | T = 27C |
 | F<sub>CLKREF</sub> | Reference | 5 | - | 12.5 | - | MHz | - |
 | F<sub>CLKOUT</sub> | Output Clock | 40 | - | 100 | - | MHz | PLL Mode |
+| F<sub>CLKOUT</sub> | Output Clock | - | - | - | MHz | VCO Mode |
+| DC | Duty Cycle | 52.7 | - | 50 | T = 27C | 
+| T<sub>SET</sub> | Settling Time | 40us | - | 20us | T = 27C |
 
 
 

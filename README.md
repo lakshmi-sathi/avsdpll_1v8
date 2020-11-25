@@ -30,6 +30,7 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 <h2> Contents: </h2>
 
 1. [Google-SkyWater 130nm PDK](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md-Google-SkyWater-130nm-PDK-)
+2  [Specifications](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md-Specifications-)
 2. [Pre-Layout Simulations](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-Pre-Layout-Simulations-)
 3. [Layout](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-Layout-)
 4. [Post-Layout Simulations](https://github.com/lakshmi-sathi/PLL_Clock_Multiplier_IP/blob/main/README.md#-Post-Layout-Simulations-)
@@ -48,8 +49,8 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 | Parameter | Description | min | typ | max | Unit | Condition |
 | --- | --- | --- | --- | --- | --- | --- |
 | VDD | Digital Supply | - | 1.8 | - | V | T = 27C |
-| F<sub>CLKREF</sub> | Reference | 5 | - | 12.5 | - | MHz | - |
-| F<sub>CLKOUT</sub> | Output Clock | 40 | - | 100 | - | MHz | PLL Mode |
+| F<sub>CLKREF</sub> | Reference | 5 | - | 12.5 | MHz | - |
+| F<sub>CLKOUT</sub> | Output Clock | 40 | - | 100 | MHz | PLL Mode |
 | F<sub>CLKOUT</sub> | Output Clock | - | - | - | MHz | VCO Mode |
 | DC | Duty Cycle | 52.7 | - | 50 | % | T = 27C | 
 | T<sub>SET</sub> | Settling Time | ~40 | - | ~20 | us | T = 27C |

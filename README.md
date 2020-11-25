@@ -30,7 +30,7 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 <h2> Contents: </h2>
 
 1. [Google-SkyWater 130nm PDK](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Google-SkyWater-130nm-PDK-)
-2  [Specifications](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Specifications-)
+2.  [Specifications](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Specifications-)
 3. [Pre-Layout Simulations](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Pre-Layout-Simulations-)
 4. [Layout](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Layout-)
 5. [Post-Layout Simulations](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Post-Layout-Simulations-)

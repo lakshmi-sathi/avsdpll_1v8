@@ -50,7 +50,7 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 | Parameter | Description | min | typ | max | Unit | Conditions |
 | --- | --- | --- | --- | --- | --- | --- |
 | VDD | Digital Supply | - | 1.8 | - | V | T = 27C |
-| F<sub>CLKREF</sub> | Reference | 5 | - | 12.5 | MHz | T= 27C |
+| F<sub>CLKREF</sub> | Reference | 5 | - | 12.5 | MHz | T = 27C |
 | F<sub>CLKOUT</sub> | Output Clock | 40 | - | 100 | MHz | PLL Mode, T = 27C |
 | F<sub>CLKOUT</sub> | Output Clock | - | - | - | MHz | VCO Mode, T = 27C |
 | DC | Duty Cycle | 52.7 | - | 50 | % | T = 27C | 
@@ -300,10 +300,10 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 
 <h3> References </h3>
 
-[1] K.K. Abdul Majeed, Binsu J. Kailath, A Novel Phase Frequency Detector for a High Frequency PLL Design, Procedia Engineering, Volume 64, 2013, Pages 377-384, ISSN 1877-7058,
-doi: 10.1016/j.proeng.2013.09.110.
-[2] X. Liu and A. N. Willson, "A pA-leakage CMOS charge pump for low-supply PLLs," 2010 53rd IEEE International Midwest Symposium on Circuits and Systems, Seattle, WA, 2010, pp. 1037-1040, doi: 10.1109/MWSCAS.2010.5548821.
-[3] Suman, Shruti & Sharma, Krishna. (2018). An Improved Performance Ring VCO: Analysis and Design. Ciência e Técnica Vitivinícola. 33. 254-0223. 
+<b>[1]</b> K.K. Abdul Majeed, Binsu J. Kailath, A Novel Phase Frequency Detector for a High Frequency PLL Design, Procedia Engineering, Volume 64, 2013, Pages 377-384, ISSN 1877-7058,
+doi: 10.1016/j.proeng.2013.09.110. <br>
+<b>[2]</b> X. Liu and A. N. Willson, "A pA-leakage CMOS charge pump for low-supply PLLs," 2010 53rd IEEE International Midwest Symposium on Circuits and Systems, Seattle, WA, 2010, pp. 1037-1040, doi: 10.1109/MWSCAS.2010.5548821. br>
+<b>[3]</b> Suman, Shruti & Sharma, Krishna. (2018). An Improved Performance Ring VCO: Analysis and Design. Ciência e Técnica Vitivinícola. 33. 254-0223. 
 
 <h3> Instructions </h3>
 

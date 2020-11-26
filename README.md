@@ -53,7 +53,7 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 | F<sub>CLKREF</sub> | Reference | 5 | - | 12.5 | MHz | T = 27C |
 | F<sub>CLKOUT</sub> | Output Clock | 40 | - | 100 | MHz | PLL Mode, T = 27C |
 | F<sub>CLKOUT</sub> | Output Clock | - | - | - | MHz | VCO Mode, T = 27C |
-| J<sub>RMS</sub> | Jitter (rms) | - | - | - | ps | PLL_Mode, w.r.t. F<sub>CLKREF</sub> |
+| J<sub>RMS</sub> | Jitter (rms) | - | - | - | ps | PLL_Mode |
 | DC | Duty Cycle | 52.7 | - | 50 | % | T = 27C | 
 | T<sub>SET</sub> | Settling Time | ~37 | - | ~22 | us | T = 27C |
 | C<sub>L</sub> | Load Capacitance | - | - | - | fF | T = 27C |
@@ -64,7 +64,7 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 
 <h4> PLL Output (tt, 27degree Celcius): </h4>
 
-<b> Red: </b> Reference Clock  <br>
+<b> Red: </b> Reference Clock  <br> 
 <b> Blue: </b> Output Clock Divided by 8  <br>
 <b> Yellow: </b> Down Signal <br>
 <b> Brown: </b> Up Signal <br>

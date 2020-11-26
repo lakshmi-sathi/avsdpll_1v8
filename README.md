@@ -30,15 +30,16 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 <h2> Contents: </h2>
 
 1. [Google-SkyWater 130nm PDK](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Google-SkyWater-130nm-PDK-)
-2.  [Specifications](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Specifications-)
+2. [Specifications](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Specifications-)
 3. [Pre-Layout Simulations](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Pre-Layout-Simulations-)
 4. [Layout](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Layout-)
 5. [Post-Layout Simulations](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Post-Layout-Simulations-)
 6. [EDA tools used](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-EDA-Tools-Used-)
-7. [Instructions](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Instructions-)
-8. [Future Scope](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Future-Scope-)
-9. [Acknowledgements](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Acknowledgements-)
-10. [Contact](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Contact-)
+7. [References}(https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-References-)
+8. [Instructions](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Instructions-)
+9. [Future Scope](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Future-Scope-)
+10. [Acknowledgements](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Acknowledgements-)
+11. [Contact](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Contact-)
 
 <h3> Google-SkyWater 130nm PDK: </h3>
 
@@ -54,6 +55,7 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 | F<sub>CLKOUT</sub> | Output Clock | - | - | - | MHz | VCO Mode |
 | DC | Duty Cycle | 52.7 | - | 50 | % | T = 27C | 
 | T<sub>SET</sub> | Settling Time | ~37 | - | ~22 | us | T = 27C |
+| C<sub>L</sub> | Load Capacitance |
 
 
 
@@ -294,6 +296,14 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 * [kicad](https://kicad.org/) (schematic capture) <br>
 * [ngspice](http://ngspice.sourceforge.net/download.html) (simulation) <br>
 * [magic](http://opencircuitdesign.com/magic/) (layout design) 
+
+
+<h3> References </h3>
+
+[1] K.K. Abdul Majeed, Binsu J. Kailath, A Novel Phase Frequency Detector for a High Frequency PLL Design, Procedia Engineering, Volume 64, 2013, Pages 377-384, ISSN 1877-7058,
+doi: 10.1016/j.proeng.2013.09.110.
+[2] X. Liu and A. N. Willson, "A pA-leakage CMOS charge pump for low-supply PLLs," 2010 53rd IEEE International Midwest Symposium on Circuits and Systems, Seattle, WA, 2010, pp. 1037-1040, doi: 10.1109/MWSCAS.2010.5548821.
+[3] Suman, Shruti & Sharma, Krishna. (2018). An Improved Performance Ring VCO: Analysis and Design. Ciência e Técnica Vitivinícola. 33. 254-0223. 
 
 <h3> Instructions </h3>
 

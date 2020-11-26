@@ -302,8 +302,11 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 
 <b>[1]</b> K.K. Abdul Majeed, Binsu J. Kailath, A Novel Phase Frequency Detector for a High Frequency PLL Design, Procedia Engineering, Volume 64, 2013, Pages 377-384, ISSN 1877-7058,
 doi: 10.1016/j.proeng.2013.09.110. <br>
-<b>[2]</b> X. Liu and A. N. Willson, "A pA-leakage CMOS charge pump for low-supply PLLs," 2010 53rd IEEE International Midwest Symposium on Circuits and Systems, Seattle, WA, 2010, pp. 1037-1040, doi: 10.1109/MWSCAS.2010.5548821. br>
-<b>[3]</b> Suman, Shruti & Sharma, Krishna. (2018). An Improved Performance Ring VCO: Analysis and Design. Ciência e Técnica Vitivinícola. 33. 254-0223. 
+<b>[2]</b> X. Liu and A. N. Willson, "A pA-leakage CMOS charge pump for low-supply PLLs," 2010 53rd IEEE International Midwest Symposium on Circuits and Systems, Seattle, WA, 2010, pp. 1037-1040, doi: 10.1109/MWSCAS.2010.5548821. <br>
+<b>[3]</b> Suman, Shruti & Sharma, Krishna. (2018). An Improved Performance Ring VCO: Analysis and Design. Ciência e Técnica Vitivinícola. 33. 254-0223. <br>
+<b>[4]</b> Karbalaei Mohammad Ali, M., Hashemipour, O. A simple and high performance charge pump based on the self-cascode transistor. Analog Integr Circ Sig Process 100, 633–638 (2019). doi: 10.1007/s10470-019-01478-y <br>
+<b>[5]</b> Y. -. Choi and D. -. Han, "Gain-Boosting Charge Pump for Current Matching in Phase-Locked Loop," in IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 53, no. 10, pp. 1022-1025, Oct. 2006, doi: 10.1109/TCSII.2006.882122. <br>
+<b>[6]</b> Agrawal, Abhishek and Nikhil Saxena. “Comparative Analysis of High Speed FBB TSPC and E-TSPC Frequency Divider at 32 nm CMOS process.” (2017).
 
 <h3> Instructions </h3>
 

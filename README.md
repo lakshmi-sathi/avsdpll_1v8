@@ -306,7 +306,7 @@ doi: 10.1016/j.proeng.2013.09.110. <br> <br>
 <b>[3]</b> Suman, Shruti & Sharma, Krishna. (2018). An Improved Performance Ring VCO: Analysis and Design. Ciência e Técnica Vitivinícola. 33. 254-0223. <br> <br> 
 <b>[4]</b> Karbalaei Mohammad Ali, M., Hashemipour, O. A simple and high performance charge pump based on the self-cascode transistor. Analog Integr Circ Sig Process 100, 633–638 (2019). doi: 10.1007/s10470-019-01478-y <br> <br> 
 <b>[5]</b> Y. -. Choi and D. -. Han, "Gain-Boosting Charge Pump for Current Matching in Phase-Locked Loop," in IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 53, no. 10, pp. 1022-1025, Oct. 2006, doi: 10.1109/TCSII.2006.882122. <br> <br> 
-<b>[6]</b> Agrawal, Abhishek and Nikhil Saxena. “Comparative Analysis of High Speed FBB TSPC and E-TSPC Frequency Divider at 32 nm CMOS process.” International Journal of Trend in Research and Development (2017), Volume 4(1), ISSN: 2394-9333.
+<b>[6]</b> Agrawal, Abhishek and Nikhil Saxena. “Comparative Analysis of High Speed FBB TSPC and E-TSPC Frequency Divider at 32 nm CMOS process,” International Journal of Trend in Research and Development (2017), Volume 4(1), ISSN: 2394-9333.
 
 <h3> Instructions </h3>
 

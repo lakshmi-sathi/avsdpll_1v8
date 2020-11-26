@@ -35,7 +35,7 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 4. [Layout](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Layout-)
 5. [Post-Layout Simulations](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Post-Layout-Simulations-)
 6. [EDA tools used](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-EDA-Tools-Used-)
-7. [References}(https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-References-)
+7. [References](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-References-)
 8. [Instructions](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Instructions-)
 9. [Future Scope](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Future-Scope-)
 10. [Acknowledgements](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Acknowledgements-)

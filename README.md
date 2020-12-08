@@ -241,6 +241,9 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 -Exact 100Mhz
 ![](PostLayout/Specs/PostLayExact100Mhz.jpg)
 
+<b>DRC:</b> <br>
+![](PostLayout/Specs/PLL_drc_clean.jpg)
+
 <h4> Phase Frequency Detector 'Up' Signal : </h4>
 
 ![](PostLayout/Simulation_Results/PFD_PostLay_Up.jpg)

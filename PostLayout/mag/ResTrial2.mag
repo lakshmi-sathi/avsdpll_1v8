@@ -1,0 +1,31 @@
+magic
+tech sky130A
+timestamp 1607692587
+<< poly >>
+rect -35 7 6 15
+rect -35 -10 -26 7
+rect -9 -2 6 7
+rect 129 7 170 15
+rect -9 -3 45 -2
+rect 129 -3 144 7
+rect -9 -10 144 -3
+rect 161 -10 170 7
+rect -35 -18 170 -10
+<< polycont >>
+rect -26 -10 -9 7
+rect 144 -10 161 7
+<< locali >>
+rect -39 7 0 12
+rect -39 -10 -26 7
+rect -9 -10 0 7
+rect -39 -15 0 -10
+rect 135 7 173 12
+rect 135 -10 144 7
+rect 161 -10 173 7
+rect 135 -15 173 -10
+<< labels >>
+rlabel locali s -39 -1 -39 -1 4 pin1
+port 1 nsew
+rlabel locali s 173 -1 173 -1 4 pin2
+port 2 nsew
+<< end >>

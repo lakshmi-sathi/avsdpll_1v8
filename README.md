@@ -339,6 +339,6 @@ doi: 10.1016/j.proeng.2013.09.110. <br> <br>
 
 <h3> Contact </h3>
 
-* Lakshmi S (Author), MS ECE, Georgia Institute of Technology - lakshmi.sathi96@gmail.com
+* Lakshmi S (Author), MS ECE - lakshmi.sathi96@gmail.com
 * Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
 

@@ -358,7 +358,8 @@ Specify a name for your fork and then clone it (somewhere on your system where y
 Here we can see the content of the Caravel Repo. Each type of file is placed in it's respective folder. <br>
 Our main focus is the 'gds' folder which contains all the Layout GDS files. <br> <br>
 
-We can see that several files have '.gz' extension. All these files are compressed files and need to be uncompressed for working on them. <br>
+We can see that several files have '.gz' extension. All these files are compressed files. This compression is in place to meet the Github size limit on individual files. <br>
+They need to be uncompressed for working on them. <br>
 -> This can be done the right way by moving to the root folder (the folder which is the local clone of the forked caravel repo) and giving:
 > make uncompress
 

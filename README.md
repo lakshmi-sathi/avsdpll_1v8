@@ -316,12 +316,12 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 
 <h3> Preparing your IP for Tapeout </h3>
 
-For any design to be tapeout ready there are more requirements than just having a finished and tested IP Layout.
-For Example, a proper GPIO (cells that enable the IP to be interfaced with external world) is needed for connecting the IP pins to the package (the final DIP or Surface Mount case in which the IC comes in from the Fab)
+For any design to be tapeout ready there are more requirements than just having a finished and tested IP Layout.<br>
+For Example, a proper GPIO (cells that enable the IP to be interfaced with external world) is needed for connecting the IP pins to the package (the final DIP or Surface Mount case in which the IC comes in from the Fab) <br>
 
-To meet these requirements either we need to take care of them individually by ourself (which may get complicated) or,
-we can choose a vehicle for enabling our IP to meet the requirements to go through the fabrication process.
-Here we will be using [Efabless Caravel SoC template](https://github.com/efabless/caravel) as the Vehicle.
+To meet these requirements either we need to take care of them individually by ourself (which may get complicated) or, <br>
+we can choose a vehicle for enabling our IP to meet the requirements to go through the fabrication process. <br>
+Here we will be using [Efabless Caravel SoC template](https://github.com/efabless/caravel) as the Vehicle. <br>
 
 <h3> References </h3>
 

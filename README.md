@@ -456,7 +456,7 @@ After docker loads you should see 'bash $' indication on the terminal.
 python3 open_mpw_prechecker.py [-h] --target_path < the target path given earlier > --pdk_root < the pdk location given earlier > --waive_fuzzy_checks
 ```
 
-
+This image shows how to load docker and run the precheck:
 
 ![](Images/run_precheck.jpg)
 

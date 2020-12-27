@@ -362,7 +362,7 @@ Now we need to setup the [Google-Skywater PDK](https://github.com/google/skywate
 -> Move to the root folder and give:
 > make pdk
 
-This downloads ands installs the pdks in the location specified earlier.
+This downloads and installs the pdks in the location specified earlier.
     
 <h5> 2) Place and Route </h5>
 

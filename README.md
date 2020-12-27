@@ -34,12 +34,13 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 3. [Pre-Layout Simulations](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Pre-Layout-Simulations-)
 4. [Layout](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Layout-)
 5. [Post-Layout Simulations](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Post-Layout-Simulations-)
-6. [EDA tools used](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-EDA-Tools-Used-)
-7. [References](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-References-)
-8. [Instructions](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Instructions-)
-9. [Future Scope](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Future-Scope-)
-10. [Acknowledgements](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Acknowledgements-)
-11. [Contact](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Contact-)
+6. [Instructions](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Instructions-)
+7. [EDA tools used](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-EDA-Tools-Used-)
+8. [Preparing your IP for Tapeout](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Preparing-your-IP-for-Tapeout-)
+9. [References](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-References-)
+10. [Future Scope](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Future-Scope-)
+11. [Acknowlegements](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Acknowledgements-)
+12. [Contact](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/README.md#-Contact-)
 
 <h3> Google-SkyWater 130nm PDK: </h3>
 
@@ -241,9 +242,6 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 -Exact 100Mhz
 ![](PostLayout/Specs/PostLayExact100Mhz.jpg)
 
-<b>DRC:</b> <br>
-![](PostLayout/Specs/PLL_drc_clean.jpg)
-
 <h4> Phase Frequency Detector 'Up' Signal : </h4>
 
 ![](PostLayout/Simulation_Results/PFD_PostLay_Up.jpg)
@@ -294,24 +292,6 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 <b>Red:</b> Input Clock <br>
 <b>Blue:</b> Output Clock <br>
 
-
-<h3> EDA Tools Used </h3>
-
-* [kicad](https://kicad.org/) (schematic capture) <br>
-* [ngspice](http://ngspice.sourceforge.net/download.html) (simulation) <br>
-* [magic](http://opencircuitdesign.com/magic/) (layout design) 
-
-
-<h3> References </h3>
-
-<b>[1]</b> K.K. Abdul Majeed, Binsu J. Kailath, A Novel Phase Frequency Detector for a High Frequency PLL Design, Procedia Engineering, Volume 64, 2013, Pages 377-384, ISSN 1877-7058,
-doi: 10.1016/j.proeng.2013.09.110. <br> <br> 
-<b>[2]</b> X. Liu and A. N. Willson, "A pA-leakage CMOS charge pump for low-supply PLLs," 2010 53rd IEEE International Midwest Symposium on Circuits and Systems, Seattle, WA, 2010, pp. 1037-1040, doi: 10.1109/MWSCAS.2010.5548821. <br> <br> 
-<b>[3]</b> Suman, Shruti & Sharma, Krishna. (2018). An Improved Performance Ring VCO: Analysis and Design. Ciência e Técnica Vitivinícola. 33. 254-0223. <br> <br> 
-<b>[4]</b> Karbalaei Mohammad Ali, M., Hashemipour, O. A simple and high performance charge pump based on the self-cascode transistor. Analog Integr Circ Sig Process 100, 633–638 (2019). doi: 10.1007/s10470-019-01478-y <br> <br> 
-<b>[5]</b> Y. -. Choi and D. -. Han, "Gain-Boosting Charge Pump for Current Matching in Phase-Locked Loop," in IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 53, no. 10, pp. 1022-1025, Oct. 2006, doi: 10.1109/TCSII.2006.882122. <br> <br> 
-<b>[6]</b> Agrawal, Abhishek and Nikhil Saxena. “Comparative Analysis of High Speed FBB TSPC and E-TSPC Frequency Divider at 32 nm CMOS process,” International Journal of Trend in Research and Development (2017), Volume 4(1), ISSN: 2394-9333.
-
 <h3> Instructions </h3>
 
 <h4> For using magic for layout: </h4>
@@ -327,6 +307,32 @@ doi: 10.1016/j.proeng.2013.09.110. <br> <br>
 * Place the [sky130nm.lib](https://github.com/lakshmi-sathi/avsdpll_1v8/blob/main/sky130nm.lib) file and the Sky130_Primitives folder in the location where you'll be running ngspice <br>
 * Run the simulation: 
     ```ngspice circuitname.cir``` 
+    
+<h3> EDA Tools Used </h3>
+
+* [kicad](https://kicad.org/) (schematic capture) <br>
+* [ngspice](http://ngspice.sourceforge.net/download.html) (simulation) <br>
+* [magic](http://opencircuitdesign.com/magic/) (layout design) 
+
+<h3> Preparing your IP for Tapeout </h3>
+
+For any design to be tapeout ready there are more requirements than just having a finished and tested IP Layout.
+For Example, a proper GPIO (cells that enable the IP to be interfaced with external world) is needed for connecting the IP pins to the package (the final DIP or Surface Mount case in which the IC comes in from the Fab)
+
+To meet these requirements either we need to take care of them individually by ourself (which may get complicated) or,
+we can choose a vehicle for enabling our IP to meet the requirements to go through the fabrication process.
+Here we will be using [Efabless Caravel SoC template](https://github.com/efabless/caravel) as the Vehicle.
+
+<h3> References </h3>
+
+<b>[1]</b> K.K. Abdul Majeed, Binsu J. Kailath, A Novel Phase Frequency Detector for a High Frequency PLL Design, Procedia Engineering, Volume 64, 2013, Pages 377-384, ISSN 1877-7058,
+doi: 10.1016/j.proeng.2013.09.110. <br> <br> 
+<b>[2]</b> X. Liu and A. N. Willson, "A pA-leakage CMOS charge pump for low-supply PLLs," 2010 53rd IEEE International Midwest Symposium on Circuits and Systems, Seattle, WA, 2010, pp. 1037-1040, doi: 10.1109/MWSCAS.2010.5548821. <br> <br> 
+<b>[3]</b> Suman, Shruti & Sharma, Krishna. (2018). An Improved Performance Ring VCO: Analysis and Design. Ciência e Técnica Vitivinícola. 33. 254-0223. <br> <br> 
+<b>[4]</b> Karbalaei Mohammad Ali, M., Hashemipour, O. A simple and high performance charge pump based on the self-cascode transistor. Analog Integr Circ Sig Process 100, 633–638 (2019). doi: 10.1007/s10470-019-01478-y <br> <br> 
+<b>[5]</b> Y. -. Choi and D. -. Han, "Gain-Boosting Charge Pump for Current Matching in Phase-Locked Loop," in IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 53, no. 10, pp. 1022-1025, Oct. 2006, doi: 10.1109/TCSII.2006.882122. <br> <br> 
+<b>[6]</b> Agrawal, Abhishek and Nikhil Saxena. “Comparative Analysis of High Speed FBB TSPC and E-TSPC Frequency Divider at 32 nm CMOS process,” International Journal of Trend in Research and Development (2017), Volume 4(1), ISSN: 2394-9333.
+
 
 <h3> Future Scope </h3> 
 

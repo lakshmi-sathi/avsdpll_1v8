@@ -468,7 +468,7 @@ doi: 10.1016/j.proeng.2013.09.110. <br> <br>
 <h3> Acknowledgements </h3>
 
 * I thank Mr. Kunal Ghosh, co-founder [VSD](https://www.vlsisystemdesign.com/), for providing me the opportunity to  work on this wonderful project.
-* I thank Google, Skywater and Efabless for bringing this wonderful opportunity to the world and making this project tapeout possible.
+* I thank [Google](https://github.com/google), [Skywater](https://www.skywatertechnology.com/) and [Efabless](https://efabless.com/) for bringing this wonderful [opportunity](https://www.skywatertechnology.com/press-releases/google-partners-with-skywater-and-efabless-to-enable-open-source-manufacturing-of-custom-asics/) to the world and making this project tapeout possible.
 
 <h3> Contact </h3>
 

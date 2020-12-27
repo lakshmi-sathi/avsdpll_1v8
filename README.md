@@ -421,8 +421,8 @@ docker pull efabless/open_mpw_precheck:latest
 
 * Load the precheck docker (assuming the PDK is already installed from the Caravel repo as mentioned earlier in the initial setup step)
 ```
-export PDK_ROOT=\< location where the PDK was installed \>
-export TARGET_PATH=\< location where you have the forked and cloned Caravel repo where the completed caravel exists \>
+export PDK_ROOT=< location where the PDK was installed >
+export TARGET_PATH=< location where you have the forked and cloned Caravel repo where the completed caravel exists >
 docker run -it -v $(pwd):/usr/local/bin -v $TARGET_PATH:$TARGET_PATH -v $PDK_ROOT:$PDK_ROOT -e TARGET_PATH=$TARGET_PATH -e PDK_ROOT=$PDK_ROOT -u $(id -u $USER):$(id -g $USER) efabless/open_mpw_precheck:latest
 ```
 
@@ -430,7 +430,7 @@ After docker loads you should see 'bash $' indication on the terminal.
 
 * Run the precheck
 ```
-python3 open_mpw_prechecker.py [-h] --target_path \< the target path given earlier \> --pdk_root \< the pdk location given earlier \> --waive_fuzzy_checks
+python3 open_mpw_prechecker.py [-h] --target_path < the target path given earlier > --pdk_root < the pdk location given earlier > --waive_fuzzy_checks
 ```
 This should run the precheck and tell you which of the checks failed, which passed and whether there are any DRC violations.
 

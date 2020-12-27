@@ -441,6 +441,8 @@ After docker loads you should see 'bash $' indication on the terminal.
 python3 open_mpw_prechecker.py [-h] --target_path < the target path given earlier > --pdk_root < the pdk location given earlier > --waive_fuzzy_checks
 ```
 This should run the precheck and tell you which of the checks failed, which passed and whether there are any DRC violations.
+Contact the organisation facilitating the tapeout run you are interested in and enquire what other steps are required to ensure tapeout readiness.
+And you are done!
 
 <h5> Fun Fact! </h5>
 The Google-Skywater openshuttle 2020, was the first of its kind where any individual could have his/her open-source IP design fabricated and delivered for free (costs sponsored by Google), which would otherwise be in many thousands of US dollars. This PLL IP fabrication was enabled through it.

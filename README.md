@@ -359,8 +359,9 @@ Now we need to setup the [Google-Skywater PDK](https://github.com/google/skywate
 > export PDK_ROOT=\<location where you want to install it\> 
 
 &nbsp;You would want to install it outside the local clone of the caravel repo since finally it has to be pushed back to Github. <br>
-Move to the root folder and give:
+-> Move to the root folder and give:
 > make pdk
+
 This downloads ands installs the pdks in the location specified earlier.
     
 <h5> 2) Place and Route </h5>

@@ -343,7 +343,16 @@ Getting it ready is as direct as this. We will see in detail the steps involved 
 
 <h5> 1) Initial Setup </h5> 
 
+Steps:
+* Fork and clone Caravel
+* Uncompress files
+* export PDK_ROOT  (location to install PDK to)
+* Install PDK
+
 -> Fork and 'git clone' the Caravel SoC. <br>
+Select the 'Fork' option on the top right of the [Caravel Github](https://github.com/efabless/caravel) repo. <br>
+Specify a name for your fork and then clone it (somewhere on your system where you want to integrate the design onto the Caravel SoC):
+> git clone <url of your fork>
 
 ![](Images/caravel_repo_root.jpg)
 <br>

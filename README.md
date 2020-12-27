@@ -331,16 +331,25 @@ The Mega Project Area (MPRJ) or 'user_project_wrapper' or in other words 'the co
 
 <h4> Basic Steps Overview: </h4>
 
+* Initial setup.
 * Place and Route the IP inside the container (keep in mind to not have any DRCs).
 * Verify LVS.
 * Integrate the container onto the Caravel SoC.
 * Check if everything is as expected including DRC (Precheck).
 
-Getting it ready is as direct as this but we will see in detail the steps involved in context of Caravel SoC and Google-Skywater OpenShuttle.
+Getting it ready is as direct as this. We will see in detail the steps involved in context of Caravel SoC and Google-Skywater OpenShuttle.
 
 <h4> Steps in Detail: </h4>
 
-<h5> 1) Place and Route </h5>
+<h5> 1) Initial Setup </h5> 
+
+Fork and 'git clone' the Caravel SoC. <br>
+
+![](Images/caravel_repo_root.jpg)
+<br>
+Here we can see the content of the Caravel Repo. Each type of file is placed in it's respective folder.
+
+<h5> 2) Place and Route </h5>
 
 There are two ways to place and route:
 * Automatically (Openlane) - commonly used in large digital designs.
@@ -349,28 +358,20 @@ There are two ways to place and route:
 Here in context of the PLL IP, we will be proceeding along the Manual method of placing and routing the IP. <br>
 For more information on the automatic method follow this [link](https://github.com/efabless/caravel/blob/master/openlane/README.md).
 
-Fork and 'git clone' the Caravel SoC. <br>
+<h5> 3) Verify LVS </h5>
 
-![](Images/caravel_repo_root.jpg)
-<br>
-Here we can see the content of the Caravel Repo. Each type of file is placed in the respective folder with the file type as the folder name.
+In context of our PLL we perform a manual LVS check for it's connectivity to the container pins. <br>
+This can be done through the simple yet effective net tracing feature of the magic layout tool:
+* Select any part of the net you wish to trace using the 's' key.
+* Press 's' multiple times to see the net being traced till it's endpoints.
 
-<h5> 2) Verify LVS </h5>
+<h5> 4) Integrating Container to Caravel SoC </h5>
 
-<h5> 3) Integrating Container to Caravel SoC </h5>
-
-<h5> 4) Precheck </h5>
-
+<h5> 5) Precheck </h5>
 
 The Google-Skywater openshuttle 2020, was the first of its kind where any individual could have his/her open-source IP design fabricated and delivered for free (costs sponsored by Google), which would otherwise be in many thousands of US dollars.
 
 ![](Images/open_mpw_shuttle.jpg)
-
-
-
-
-
-
 
 <h3> References </h3>
 

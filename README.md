@@ -348,10 +348,10 @@ Steps:
 * Uncompress files
 * Install PDK
 
--> Fork and 'git clone' the Caravel SoC. <br>
+-> Fork and 'git clone' the Caravel SoC. <br> <br>
 Select the 'Fork' option on the top right of the [Caravel Github](https://github.com/efabless/caravel) repo. <br>
 Specify a name for your fork and then clone it (somewhere on your system where you want to integrate the design onto the Caravel SoC):
-> git clone <url of your fork>
+> git clone \<url of your fork\>
 
 ![](Images/caravel_repo_root.jpg)
 <br>

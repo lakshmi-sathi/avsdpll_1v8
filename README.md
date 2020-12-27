@@ -333,7 +333,7 @@ The Mega Project Area (MPRJ) or 'user_project_wrapper' or in other words 'the co
 
 * Initial setup.
 * Place and Route the IP inside the container (keep in mind to not have any DRCs).
-* Verify LVS.
+* Verify Connectivity.
 * Integrate the container onto the Caravel SoC.
 * Check if everything is as expected including DRC (Precheck).
 
@@ -343,12 +343,25 @@ Getting it ready is as direct as this. We will see in detail the steps involved 
 
 <h5> 1) Initial Setup </h5> 
 
-Fork and 'git clone' the Caravel SoC. <br>
+-> Fork and 'git clone' the Caravel SoC. <br>
 
 ![](Images/caravel_repo_root.jpg)
 <br>
-Here we can see the content of the Caravel Repo. Each type of file is placed in it's respective folder.
+Here we can see the content of the Caravel Repo. Each type of file is placed in it's respective folder. <br>
+Our main focus is the 'gds' folder which contains all the Layout GDS files. <br> <br>
 
+We can see that several files have '.gz' extension. All these files are compressed files and need to be uncompressed for working on them. <br>
+-> This can be done the right way by moving to the root folder (the folder which is the local clone of the forked caravel repo) and giving:
+> make uncompress
+
+Now we need to setup the [Google-Skywater PDK](https://github.com/google/skywater-pdk) on the machine on which this integration is to be performed. <br>
+-> The entire PDK installation is provided as a two step process: <br>
+> export PDK=<location where you want to install it> <br>
+&nbsp;You would want to install it outside the local clone of the caravel repo since finally it has to be pushed back to Github. <br>
+Move to the root folder and give:
+> make pdk
+This downloads ands installs the pdks in the location specified earlier.
+    
 <h5> 2) Place and Route </h5>
 
 There are two ways to place and route:
@@ -358,18 +371,36 @@ There are two ways to place and route:
 Here in context of the PLL IP, we will be proceeding along the Manual method of placing and routing the IP. <br>
 For more information on the automatic method follow this [link](https://github.com/efabless/caravel/blob/master/openlane/README.md).
 
-<h5> 3) Verify LVS </h5>
+<h5> 3) Verify Connectivity </h5>
 
-In context of our PLL we perform a manual LVS check for it's connectivity to the container pins. <br>
-This can be done through the simple yet effective net tracing feature of the magic layout tool:
+In context of the a manual connectivity check for it's connectivity to the container pins is performed. You may want to have an automated process if your design has a large number of pins.<br>
+
+The connectivity check can be done through the simple yet effective net tracing feature of the magic layout tool:
 * Select any part of the net you wish to trace using the 's' key.
 * Press 's' multiple times to see the net being traced till it's endpoints.
+Now the fully highlighted net enables us to see which pin is connected where. <br>
+This way we can do the same for all nets interfacing the IP to the container to verify the connectivity.
 
 <h5> 4) Integrating Container to Caravel SoC </h5>
 
+The Caravel Repo uses a simple 'make' based method to integrate the container onto the Caravel SoC. <br>
+
+All that needs to be done, once all the place, route and verification is completed, <br>
+is to move to the root folder (the folder which is the local clone of the forked caravel repo) and, <br>
+give the 'make' command. This integrates the container onto the Caravel SoC (takes about 10-15mins usually). <br>
+
+We can see that in 'gds' folder a 'caravel.gds' file is generated. <br>
+This is the final gds file which is to be used by the Fab for fabricating the IC.
+
 <h5> 5) Precheck </h5>
 
-The Google-Skywater openshuttle 2020, was the first of its kind where any individual could have his/her open-source IP design fabricated and delivered for free (costs sponsored by Google), which would otherwise be in many thousands of US dollars.
+The precheck is provided as a [separate repo](https://github.com/efabless/open_mpw_precheck) by Efabless.
+This was the precheck for Google-Skywater-Efabless open MPW shuttle 2020, on which this guide will be based. It would be different for different tapeout runs and you would need to find the one for the specific tapeout run that you are tagetting.
+
+
+
+<h5> Fun Fact! </h5>
+The Google-Skywater openshuttle 2020, was the first of its kind where any individual could have his/her open-source IP design fabricated and delivered for free (costs sponsored by Google), which would otherwise be in many thousands of US dollars. This PLL IP fabrication was enabled through it.
 
 ![](Images/open_mpw_shuttle.jpg)
 
@@ -391,7 +422,7 @@ doi: 10.1016/j.proeng.2013.09.110. <br> <br>
 
 <h3> Acknowledgements </h3>
 
-* I thank Mr. Kunal Ghosh co-founder VSD, for providing me the opportunity to  work on this wonderful project
+* I thank Mr. Kunal Ghosh, co-founder [VSD](https://www.vlsisystemdesign.com/), for providing me the opportunity to  work on this wonderful project
 
 <h3> Contact </h3>
 

@@ -327,12 +327,13 @@ Before we start, this is the [datasheet](https://github.com/efabless/caravel/blo
 and these are the parts involved in it: <br>
 
 ![](Images/CaravelSoCTemplate.jpg)
-The Mega Project Area (MPRJ) or user_projec_wrapper or in other words the container is where we will place and route our IP.
+The Mega Project Area (MPRJ) or 'user_project_wrapper' or in other words 'the container' is where we will place and route our IP.
 
 <h4> Basic Steps Overview: </h4>
 
-* Place and Route the IP inside the Vehicle (keep in mind to not have any DRCs).
+* Place and Route the IP inside the container (keep in mind to not have any DRCs).
 * Verify LVS.
+* Integrate the container onto the Caravel SoC.
 * Check if everything is as expected including DRC (Precheck).
 
 Getting it ready is as direct as this but we will see in detail the steps involved in context of Caravel SoC and Google-Skywater OpenShuttle.
@@ -348,11 +349,17 @@ There are two ways to place and route:
 Here in context of the PLL IP, we will be proceeding along the Manual method of placing and routing the IP. <br>
 For more information on the automatic method follow this [link](https://github.com/efabless/caravel/blob/master/openlane/README.md).
 
-Fork and 'git clone' the Caravel SoC.
+Fork and 'git clone' the Caravel SoC. <br>
+
+![](Images/caravel_repo_root.jpg)
+<br>
+Here we can see the content of the Caravel Repo. Each type of file is placed in the respective folder with the file type as the folder name.
 
 <h5> 2) Verify LVS </h5>
 
-<h5> 3) Precheck </h5>
+<h5> 3) Integrating Container to Caravel SoC </h5>
+
+<h5> 4) Precheck </h5>
 
 
 The Google-Skywater openshuttle 2020, was the first of its kind where any individual could have his/her open-source IP design fabricated and delivered for free (costs sponsored by Google), which would otherwise be in many thousands of US dollars.

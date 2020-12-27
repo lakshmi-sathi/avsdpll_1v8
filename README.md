@@ -414,9 +414,9 @@ Efabless Caravel Precheck is designed to run on docker (a container for software
 Clone the Efabless precheck repo and follow these steps to run the precheck on your finished Caravel:
 * Fetch their open_mpw_precheck docker
 
-> cd dependencies
-> sh build-docker.sh
-> docker pull efabless/open_mpw_precheck:latest
+``` cd dependencies
+sh build-docker.sh
+docker pull efabless/open_mpw_precheck:latest ```
 
 * Load the precheck docker (assuming the PDK is already installed from the Caravel repo as mentioned earlier in the initial setup step)
 

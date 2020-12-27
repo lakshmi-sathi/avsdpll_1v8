@@ -441,7 +441,7 @@ After docker loads you should see 'bash $' indication on the terminal.
 python3 open_mpw_prechecker.py [-h] --target_path < the target path given earlier > --pdk_root < the pdk location given earlier > --waive_fuzzy_checks
 ```
 This should run the precheck and tell you which of the checks failed, which passed and whether there are any DRC violations.<br>
-Contact the organisation facilitating the tapeout run you are interested in and enquire what other steps are required to ensure tapeout readiness.<br>
+Contact the organisation facilitating the tapeout run you are interested in and enquire what other steps are required to ensure tapeout readiness.<br><br>
 And you are done! <br>
 
 <h5> Fun Fact! </h5>

@@ -356,7 +356,8 @@ We can see that several files have '.gz' extension. All these files are compress
 
 Now we need to setup the [Google-Skywater PDK](https://github.com/google/skywater-pdk) on the machine on which this integration is to be performed. <br>
 -> The entire PDK installation is provided as a two step process: <br>
-> export PDK=<location where you want to install it> <br>
+> export PDK=<location where you want to install it> 
+
 &nbsp;You would want to install it outside the local clone of the caravel repo since finally it has to be pushed back to Github. <br>
 Move to the root folder and give:
 > make pdk

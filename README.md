@@ -382,6 +382,14 @@ There are two ways to place and route:
 Here in context of the PLL IP, we will be proceeding along the Manual method of placing and routing the IP. <br>
 For more information on the automatic method follow this [link](https://github.com/efabless/caravel/blob/master/openlane/README.md).
 
+For placing and routing the IP manually the magic layout tool can be used:
+* export the PDK_ROOT variable with the location of the PDK installation.
+* cd to the 'mag' folder and open magic layout tool (this is since the .magicrc configuration file is in this folder).
+* Select File -> Read GDS and open user_project_wrapper.gds from 'gds' folder (this is the container where we are going to place the IP).
+* Select Cell -> Place Instance and select the mag file of the IP you want to insert (this allows you to place your IP inside this container).
+* Manually route the IP pins to the appropriate pins on the container (refer to the datasheet mentioned earlier). Keep in mind to avoid DRC errors.
+* Seletc File -> Write GDS and write out the GDS file for the modified container.
+
 <h5> 3) Verify Connectivity </h5>
 
 In context of the a manual connectivity check for it's connectivity to the container pins is performed. You may want to have an automated process if your design has a large number of pins.<br>

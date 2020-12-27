@@ -385,10 +385,14 @@ For more information on the automatic method follow this [link](https://github.c
 For placing and routing the IP manually the magic layout tool can be used:
 * export the PDK_ROOT variable with the location of the PDK installation.
 * cd to the 'mag' folder and open magic layout tool (this is since the .magicrc configuration file is in this folder).
+
   This is how to open magic with the right configuration for Caravel with the installed PDK:
   ![](Images/opening_magic.jpg)
+  
 * Select File -> Read GDS and open user_project_wrapper.gds from 'gds' folder (this is the container where we are going to place the IP).
 * Select Cell -> Place Instance and select the mag file of the IP you want to insert (this allows you to place your IP inside this container).
+
+![](Images/place_ip.jpg)
 * Manually route the IP pins to the appropriate pins on the container (refer to the datasheet mentioned earlier). Keep in mind to avoid DRC errors.
 * Select File -> Write GDS and write out the GDS file for the modified container (remember that the final container in which the IP is placed should be named user_project_wrapper.gds and it should be inside 'gds' folder, this is required for the integration step using 'make' to work).
 

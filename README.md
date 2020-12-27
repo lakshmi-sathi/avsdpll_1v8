@@ -409,7 +409,28 @@ This is the final gds file which is to be used by the Fab for fabricating the IC
 The precheck is provided as a [separate repo](https://github.com/efabless/open_mpw_precheck) by Efabless.
 This was the precheck for Google-Skywater-Efabless open MPW shuttle 2020, on which this guide will be based. It would be different for different tapeout runs and you would need to find the one for the specific tapeout run that you are tagetting.
 
+Efabless Caravel Precheck is designed to run on docker (a container for software, kind of like Virtual Machine). Follow this [link](https://docs.docker.com/engine/install/ubuntu/) to know how to install docker. <br>
 
+Clone the Efabless precheck repo and follow these steps to run the precheck on your finished Caravel:
+* Fetch their open_mpw_precheck docker
+
+> cd dependencies
+> sh build-docker.sh
+> docker pull efabless/open_mpw_precheck:latest
+
+* Load the precheck docker (assuming the PDK is already installed from the Caravel repo as mentioned earlier in the initial setup step)
+
+> export PDK_ROOT=\< location where the PDK was installed \>
+> export TARGET_PATH=\< location where you have the forked and cloned Caravel repo where the completed caravel exists \>
+> docker run -it -v $(pwd):/usr/local/bin -v $TARGET_PATH:$TARGET_PATH -v $PDK_ROOT:$PDK_ROOT -e TARGET_PATH=$TARGET_PATH -e PDK_ROOT=$PDK_ROOT -u $(id -u $USER):$(id -g $USER) efabless/open_mpw_precheck:latest
+
+After docker loads you should see 'bash $' indication on the terminal.
+
+* Run the precheck
+
+> python3 open_mpw_prechecker.py [-h] --target_path \< the target path given earlier \> --pdk_root \< the pdk location given earlier \> --waive_fuzzy_checks
+
+This should run the precheck and tell you which of the checks failed, which passed and whether there are any DRC violations.
 
 <h5> Fun Fact! </h5>
 The Google-Skywater openshuttle 2020, was the first of its kind where any individual could have his/her open-source IP design fabricated and delivered for free (costs sponsored by Google), which would otherwise be in many thousands of US dollars. This PLL IP fabrication was enabled through it.

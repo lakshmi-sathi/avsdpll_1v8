@@ -323,9 +323,31 @@ To meet these requirements either we need to take care of them individually by o
 we can choose a vehicle for enabling our IP to meet the requirements to go through the fabrication process. <br>
 Here we will be using [Efabless Caravel SoC template](https://github.com/efabless/caravel) as the Vehicle. <br>
 
-Before we start, this is the [datasheet](https://github.com/efabless/caravel/blob/master/doc/caravel_datasheet.pdf) of the Caravel SoC from [Efabless](https://efabless.com/).
+Before we start, this is the [datasheet](https://github.com/efabless/caravel/blob/master/doc/caravel_datasheet.pdf) of the Caravel SoC from [Efabless](https://efabless.com/) <br>
+And these are the parts involved in it:
+![](Images/CaravelSoCTemplate.jpg)
+The Mega Project Area (MPRJ) or user_projec_wrapper or in other words the container is where we will place and route our IP.
 
-The Google-Skywater openshuttle 2020, was the first of its kind where any individual could have his/her open-source IP design fabricated and delivered for free (costs sponsored by Google).
+<h4> Basic Steps Overview: </h4>
+
+* Place and Route the IP inside the Vehicle (keep in mind to not have any DRCs).
+* Verify LVS.
+* Check if everything is as expected including DRC (Precheck).
+
+Getting it ready is as direct as this but we will see in detail the steps involved in context of Caravel SoC and Google-Skywater OpenShuttle.
+
+<h4> Steps in Detail: </h4>
+
+<h5> 1) Place and Route </h5>
+
+There are two ways to place and route:
+* Automatically (Openlane) - commonly used in large digital designs.
+* Manually - good for designs that aren't having too many pins to interface.
+
+Here in context of the PLL IP, we will be proceeding along the Manual method of placing and routing the IP. <br>
+For more information on the automatic method follow this [link](https://github.com/efabless/caravel/blob/master/openlane/README.md)
+
+The Google-Skywater openshuttle 2020, was the first of its kind where any individual could have his/her open-source IP design fabricated and delivered for free (costs sponsored by Google), which would otherwise be in many thousands of dollars.
 
 ![](Images/open_mpw_shuttle.jpg)
 

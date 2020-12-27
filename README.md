@@ -388,7 +388,7 @@ For placing and routing the IP manually the magic layout tool can be used:
 * Select File -> Read GDS and open user_project_wrapper.gds from 'gds' folder (this is the container where we are going to place the IP).
 * Select Cell -> Place Instance and select the mag file of the IP you want to insert (this allows you to place your IP inside this container).
 * Manually route the IP pins to the appropriate pins on the container (refer to the datasheet mentioned earlier). Keep in mind to avoid DRC errors.
-* Seletc File -> Write GDS and write out the GDS file for the modified container.
+* Select File -> Write GDS and write out the GDS file for the modified container.
 
 <h5> 3) Verify Connectivity </h5>
 

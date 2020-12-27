@@ -457,7 +457,6 @@ python3 open_mpw_prechecker.py [-h] --target_path < the target path given earlie
 ```
 
 This image shows how to load docker and run the precheck:
-
 ![](Images/run_precheck.jpg)
 
 This should run the precheck and tell you which of the checks failed, which passed and whether there are any DRC violations.<br>

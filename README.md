@@ -405,7 +405,13 @@ In context of the a manual connectivity check for it's connectivity to the conta
 
 The connectivity check can be done through the simple yet effective net tracing feature of the magic layout tool:
 * Select any part of the net you wish to trace using the 's' key.
+
+Reference net or Input clock net can be seen selected in this image:
+![](Images/selected.jpg)
+
 * Press 's' multiple times to see the net being traced till it's endpoints.
+
+![](Images/net_trace.jpg)
 
 Now the fully highlighted net enables us to see which pin is connected where.<br>
 This way we can do the same for all nets interfacing the IP to the container to verify the connectivity.

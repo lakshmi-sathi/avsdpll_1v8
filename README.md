@@ -323,8 +323,9 @@ To meet these requirements either we need to take care of them individually by o
 we can choose a vehicle for enabling our IP to meet the requirements to go through the fabrication process. <br>
 Here we will be using [Efabless Caravel SoC template](https://github.com/efabless/caravel) as the Vehicle. <br>
 
-Before we start, this is the [datasheet](https://github.com/efabless/caravel/blob/master/doc/caravel_datasheet.pdf) of the Caravel SoC from [Efabless](https://efabless.com/) <br>
-And these are the parts involved in it:
+Before we start, this is the [datasheet](https://github.com/efabless/caravel/blob/master/doc/caravel_datasheet.pdf) of the Caravel SoC from [Efabless](https://efabless.com/), <br>
+and these are the parts involved in it: <br>
+
 ![](Images/CaravelSoCTemplate.jpg)
 The Mega Project Area (MPRJ) or user_projec_wrapper or in other words the container is where we will place and route our IP.
 
@@ -345,9 +346,16 @@ There are two ways to place and route:
 * Manually - good for designs that aren't having too many pins to interface.
 
 Here in context of the PLL IP, we will be proceeding along the Manual method of placing and routing the IP. <br>
-For more information on the automatic method follow this [link](https://github.com/efabless/caravel/blob/master/openlane/README.md)
+For more information on the automatic method follow this [link](https://github.com/efabless/caravel/blob/master/openlane/README.md).
 
-The Google-Skywater openshuttle 2020, was the first of its kind where any individual could have his/her open-source IP design fabricated and delivered for free (costs sponsored by Google), which would otherwise be in many thousands of dollars.
+Fork and 'git clone' the Caravel SoC.
+
+<h5> 2) Verify LVS </h5>
+
+<h5> 3) Precheck </h5>
+
+
+The Google-Skywater openshuttle 2020, was the first of its kind where any individual could have his/her open-source IP design fabricated and delivered for free (costs sponsored by Google), which would otherwise be in many thousands of US dollars.
 
 ![](Images/open_mpw_shuttle.jpg)
 

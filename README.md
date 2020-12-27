@@ -346,7 +346,6 @@ Getting it ready is as direct as this. We will see in detail the steps involved 
 Steps:
 * Fork and clone Caravel
 * Uncompress files
-* export PDK_ROOT  (location to install PDK to)
 * Install PDK
 
 -> Fork and 'git clone' the Caravel SoC. <br>

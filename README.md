@@ -56,7 +56,7 @@ Lock-in starts at ~22us for 100MHz and ~37us for 40Mhz
 | F<sub>CLKOUT</sub> | Output Clock | - | - | - | MHz | VCO Mode, T = 27C |
 | J<sub>RMS</sub> | Jitter (rms) | - | - | - | ps | PLL_Mode |
 | DC | Duty Cycle | 52.7 | - | 50 | % | T = 27C | 
-| T<sub>SET</sub> | Settling Time | ~37 | - | ~22 | us | T = 27C |
+| T<sub>SET</sub> | Settling Time | ~37 | - | ~22 | ns | T = 27C |
 | C<sub>L</sub> | Load Capacitance | - | - | - | fF | T = 27C |
 | IDD | Supply Current | - | - | - | fF | T = 27C |
 
